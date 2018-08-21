@@ -872,7 +872,7 @@ var journalMapping = {
 	"0717-4675" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
-	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
+	
  
 
 	
