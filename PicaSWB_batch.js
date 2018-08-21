@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 2,
 	"browserSupport": "gcs",
-	"lastUpdated": "2018-08-16 00:00:00"
+	"lastUpdated": "2018-07-16 00:00:00"
 }
 
 
@@ -872,7 +872,7 @@ var journalMapping = {
 	"0717-4675" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
-
+	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
  
 
 	
