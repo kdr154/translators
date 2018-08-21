@@ -872,6 +872,10 @@ var journalMapping = {
 	"0717-4675" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "!316279331!", // Veritas : Revista de Filosofía y Teología
 	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
+	"0044-3123" : "!506949990!", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
+
+ 
+
 	
  
 
@@ -1990,6 +1994,7 @@ var issnPhysicalFormMapping = {
 	"Tijdschrift voor Theologie" : "O", // Tijdschrift voor Theologie
 	"African ecclesial review. - Eldoret : Gaba Publications" : "O", // African ecclesial review
 	"1266-0078" : "O", // Revue d'éthique et de théologie morale
+	"0044-3123" : "O", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 		
 	
 };
