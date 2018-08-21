@@ -295,7 +295,7 @@ var journalMapping = {
 	"0030-5839" : "!015236277!", // The Orthodox word
 	"1550-0195" : "!059006382!", // Journal of Unitarian Universalist History
 	"0082-7118" : "!015195775!", // Tyndale Bulletin
-	"2326-6236" : "!014891263!", // The jurist: studies in church law and ministry
+	"2326-6236" : "!294349294!", // The jurist: studies in church law and ministry
 	"2363-6696" : "!416961657!", // Entangled Religions
 	"0044-3441" : "!14821419!", // Zeitschrift für Religions- und Geistesgeschichte
 	"1862-5886" : "!281314136!", // Zeitschrift für junge Religionswissenschaft
@@ -391,7 +391,7 @@ var journalMapping = {
 	"0048-721X" : "!104344660!", // Religion
 	"0005-5719" : "!325341265!", // Baptist history and heritage
 	"00055719" : "!325341265!", // Baptist history and heritage
-	"0210-7112" : "!015182886!", // Revista española de teología
+	"0210-7112" : "!506930882!", // Revista española de teología
 	"2466-8583" : "!462777774!", // Revue biblique
 	"0039-3207" : "!01518529X!", // Studia liturgica
 	"0043-941X" : "!015195163!", // Worship. A review concerned with the problems of liturgical renewal
@@ -1469,7 +1469,7 @@ var issnPhysicalFormMapping = {
 	"1462-3153" : "A", // Journal for the Aramaic bible !!pppn
 	"1462-3153" : "A", // Journal for the Aramaic bible !!eppn
 	"0082-7118" : "A", // Tyndale Bulletin
-	"2326-6236" : "A", // The jurist: studies in church law and ministry
+	"2326-6236" : "O", // The jurist: studies in church law and ministry
 	"2363-6696" : "O", // Entangled Religions
 	"0044-3441" : "A", // Zeitschrift für Religions- und Geistesgeschichte
 	"1862-5886" : "O", // Zeitschrift für junge Religionswissenschaft
@@ -1560,7 +1560,7 @@ var issnPhysicalFormMapping = {
 	"0007-4322" : "A", // Bulletin de littérature ecclésiastique
 	"0021-9231" : "A", // Journal of biblical literature !!eppn
 	"00219231" : "O", // Journal of biblical literature !!eppn
-	"0210-7112" : "A", // Revista española de teología
+	"0210-7112" : "O", // Revista española de teología
 	"2466-8583" : "O", // Revue biblique
 	"0039-3207" : "A", // Studia liturgica
 	"0043-941X" : "A", // Worship. A review concerned with the problems of liturgical renewal
