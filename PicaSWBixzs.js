@@ -385,8 +385,6 @@ var journalMapping = {
 	"1722-4705" : "!275998991!", // Religioni e società
 	"0394-9397" : "!275998991!", // Religioni e società
 	"17224705" : "!275998991!", // Religioni e società
-	"0002-7189" : "!10686971X!", // Journal of the American Academy of Religion
-	"1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
 	"00088080" : "!266819001!", // The catholic historical review
 	"0008-8080" : "!266819001!", // The catholic historical review
 	"0024-6964" : "!015195600!", // Louvain Studies
@@ -884,6 +882,9 @@ var journalMapping = {
 	"0075-2681" : "!423615688!", // Jahrbuch für Liturgik und Hymnologie
 	"00752541" : "!396691633!", // Jahrbuch für Antike und Christentum
 	"0075-2541" : "!396691633!", // Jahrbuch für Antike und Christentum
+	"0002-7189, 1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
+	"0002-7189" : "!10686971X!", // Journal of the American Academy of Religion
+	"1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
 	
 	
 	
@@ -1548,8 +1549,6 @@ var issnPhysicalFormMapping = {
 	"1722-4705" : "O", // Religioni e società
 	"0394-9397" : "O", // Religioni e società
 	"17224705" : "O", // Religioni e società
-	"0002-7189" : "O", // Journal of the American Academy of Religion
-	"1477-4585" : "O", // Journal of the American Academy of Religion
 	"0008-8080" : "O", // The catholic historical review
 	"00088080" : "O", // The catholic historical review
 	"0024-6964" : "O", // Louvain Studies
@@ -1999,6 +1998,9 @@ var issnPhysicalFormMapping = {
 	"0044-3123" : "O", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 	"0075-2681" : "O", // Jahrbuch für Liturgik und Hymnologie
 	"00752541" : "O", // Jahrbuch für Antike und Christentum
+	"0002-7189, 1477-4585" : "O", // Journal of the American Academy of Religion
+	"0002-7189" : "O", // Journal of the American Academy of Religion
+	"1477-4585" : "O", // Journal of the American Academy of Religion
 	
 	
 };
@@ -2241,6 +2243,7 @@ var issnSsgMapping = {
 	"1722-4705" : "0", // Religioni e società
 	"0394-9397" : "0", // Religioni e società
 	"17224705" : "0", // Religioni e società
+	"0002-7189, 1477-4585" : "0", // Journal of the American Academy of Religion
 	"0002-7189" : "0", // Journal of the American Academy of Religion
 	"1477-4585" : "0", // Journal of the American Academy of Religion
 	"1138-4972" : "0", // 'Ílu
