@@ -178,10 +178,10 @@ var journalMapping = {
 	"0486-5642" : "!325341354!", // Restoration quarterly
 	"0360-3032" : "!015206114!", // Trinity journal
     "0340-6083" : "!278242324!", // Göttinger Predigtmeditationen
-	"0720-6259" : "!014553880!", // Pastoraltheologie
-	"0031-2827" : "!014553880!", // Pastoraltheologie
-    "2197-0831" : "!014553880!", // Pastoraltheologie
-	"0174-9927" : "!014553880!", // Pastoraltheologie
+	"0720-6259" : "!276562402!", // Pastoraltheologie
+	"0031-2827" : "!276562402!", // Pastoraltheologie
+    "2197-0831" : "!276562402!", // Pastoraltheologie
+	"0174-9927" : "!276562402!", // Pastoraltheologie
 	"1065-6219" : "!273887521!", // Journal of research on Christian education
 	"1934-4945" : "!273887521!", // Journal of research on Christian education
 	"0926-6453" : "!113564856!", // Studies in spirituality
@@ -1240,10 +1240,10 @@ var issnPhysicalFormMapping = {
 	"0486-5642" : "O", // Restoration quarterly
 	"0360-3032" : "A", // Trinity journal
     "0340-6083" : "O", // Göttinger Predigtmeditationen
-	"0720-6259" : "A", // Pastoraltheologie
-	"0031-2827" : "A", // Pastoraltheologie
-    "2197-0831" : "A", // Pastoraltheologie
-	"0174-9927" : "A", // Pastoraltheologie
+	"0720-6259" : "O", // Pastoraltheologie
+	"0031-2827" : "O", // Pastoraltheologie
+    "2197-0831" : "O", // Pastoraltheologie
+	"0174-9927" : "O", // Pastoraltheologie
 	"1065-6219" : "O", // Journal of research on Christian education
 	"1934-4945" : "O", // Journal of research on Christian education
 	"0926-6453" : "O", // Studies in spirituality
