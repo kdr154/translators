@@ -874,7 +874,8 @@ var journalMapping = {
 	"1266-0078" : "!403254671!", // Revue d'éthique et de théologie morale
 	"0044-3123" : "!506949990!", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 	"0075-2681" : "!423615688!", // Jahrbuch für Liturgik und Hymnologie
-
+	"00752541" : "!396691633!", // Jahrbuch für Antike und Christentum
+	"0075-2541" : "!396691633!", // Jahrbuch für Antike und Christentum
  
 
 	
@@ -1997,6 +1998,8 @@ var issnPhysicalFormMapping = {
 	"1266-0078" : "O", // Revue d'éthique et de théologie morale
 	"0044-3123" : "O", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 	"0075-2681" : "O", // Jahrbuch für Liturgik und Hymnologie
+	"00752541" : "O", // Jahrbuch für Antike und Christentum
+	
 		
 	
 };
