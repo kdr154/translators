@@ -630,7 +630,7 @@ var journalMapping = {
 	"0044-3123" : "!014852152!", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 	"1120-267X" : "!015202550!", // Teologia, rivista della Facoltà Teologica dell'Italia Settentrionale
 	"2053-6267" : "!394648986!", // The Huguenot Society Journal
-	"0340-6210" : "!014414112!", // Luther
+	"0340-6210" : "!480170290!", // Luther
 	"0026-587X" : "!015181243!", // Miscellanea Francescana
 	"0340-6407" : "!014895242!", // Oriens Christianus
 	"0030-6487" : "!014838737!", // Ostkirchliche Studien
@@ -1749,7 +1749,7 @@ var issnPhysicalFormMapping = {
 	"0044-3123" : "A", // Zeitschrift für Missionswissenschaft und Religionswissenschaft
 	"1120267X" : "A", // Teologia, rivista della Facoltà Teologica dell'Italia Settentrionale
 	"20536267" : "A", // The Huguenot Society Journal
-	"0340-6210" : "A", // Luther
+	"0340-6210" : "O", // Luther
 	"0026587X" :"A", // Miscellanea Francescana
 	"0340-6407" : "A", // Oriens Christianus
 	"0030-6487" : "A", // Ostkirchliche Studien
@@ -1922,7 +1922,7 @@ var issnPhysicalFormMapping = {
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"Antonianum" : "A", // Antonianum
 	"Dialogue & Alliance" : "A", // Dialogue & Alliance
-	"Luther" : "A", // Luther, Zeitschrift der Luthergesellschaft
+	"Luther" : "O", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
 	"Louvain Studies" : "O", // Louvain Studies
@@ -2424,7 +2424,7 @@ var issnJournalTitleMapping = {
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"Antonianum" : "!014992124!", // Antonianum
 	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
-	"Luther" : "!014414112!", // Luther, Zeitschrift der Luthergesellschaft
+	"Luther" : "!480170290!", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
 	"Louvain Studies" : "!113144229!", // Louvain Studies
