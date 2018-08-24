@@ -877,6 +877,8 @@ var journalMapping = {
 	"0002-7189, 1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
 	"0002-7189" : "!10686971X!", // Journal of the American Academy of Religion
 	"1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
+	"07788304" : "!400529270!", // Trajecta
+	"0778-8304" : "!400529270!", // Trajecta
 	
  
 
@@ -1999,6 +2001,8 @@ var issnPhysicalFormMapping = {
 	"0002-7189, 1477-4585" : "O", // Journal of the American Academy of Religion
 	"0002-7189" : "O", // Journal of the American Academy of Religion
 	"1477-4585" : "O", // Journal of the American Academy of Religion
+	"07788304" : "O", // Trajecta
+	"0778-8304" : "O", // Trajecta
 	
 		
 	
