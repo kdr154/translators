@@ -885,7 +885,10 @@ var journalMapping = {
 	"0002-7189, 1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
 	"0002-7189" : "!10686971X!", // Journal of the American Academy of Religion
 	"1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
-	
+	"07788304" : "!400529270!", // Trajecta
+	"0778-8304" : "!400529270!", // Trajecta
+	"0049-366X" : "!014863219!", // Theologie und Glaube
+	"0028-212X" : "!508474957!", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	
 	
 };
@@ -2001,6 +2004,10 @@ var issnPhysicalFormMapping = {
 	"0002-7189, 1477-4585" : "O", // Journal of the American Academy of Religion
 	"0002-7189" : "O", // Journal of the American Academy of Religion
 	"1477-4585" : "O", // Journal of the American Academy of Religion
+	"07788304" : "O", // Trajecta
+	"0778-8304" : "O", // Trajecta
+	"0049-366X" : "A", // Theologie und Glaube
+	"0028-212X" : "O", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	
 	
 };
@@ -2380,6 +2387,7 @@ var issnSsgMapping = {
 	"2154-7270" : "0", // International Journal of Cultic Studies
 	"0034-3951" : "0; 1", // Religion and Society Print-PPN
 	"2396-9393" : "0; 1", // International bulletin of mission research
+	"0028-212X" : "0; 1", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 
 	
 };
