@@ -889,6 +889,8 @@ var journalMapping = {
 	"0778-8304" : "!400529270!", // Trajecta
 	"0049-366X" : "!014863219!", // Theologie und Glaube
 	"0028-212X" : "!508474957!", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
+	"00097497" : "!014962330!", // Citeaux - Commentarii Cistercienses
+	"0009-7497" : "!014962330!", // Citeaux - Commentarii Cistercienses
 	
 	
 };
@@ -2008,6 +2010,8 @@ var issnPhysicalFormMapping = {
 	"0778-8304" : "O", // Trajecta
 	"0049-366X" : "A", // Theologie und Glaube
 	"0028-212X" : "O", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
+	"00097497" : "A", // Citeaux - Commentarii Cistercienses
+	"0009-7497" : "A", // Citeaux - Commentarii Cistercienses
 	
 	
 };
