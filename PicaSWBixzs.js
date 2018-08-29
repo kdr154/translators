@@ -864,7 +864,7 @@ var journalMapping = {
 	"0066-6386" : "!014392348!", // Archiv für Liturgiewissenschaft
 	"2375-6330" : "!42864905X!", // The Asbury Journal
 	"1090-5642" : "!42864905X!", // The Asbury Journal
-	"0265-4539" : "!422847313!", // The Scottish bulletin of evangelical theology
+	"0265-4539" : "!016227786!", // The Scottish bulletin of evangelical theology
 	"2297-6167" : "!461229730!", // Revue d'histoire du protestantisme
 	"2154-7270" : "!359478492!", // International Journal of Cultic Studies
 	"0030-5367" : "!424052067!", // Orientalia
@@ -1983,7 +1983,7 @@ var issnPhysicalFormMapping = {
 	"0066-6386" : "A", // Archiv für Liturgiewissenschaft
 	"2375-6330" : "O", // The Asbury Journal
 	"1090-5642" : "O", // The Asbury Journal
-	"0265-4539" : "O", // The Scottish bulletin of evangelical theology
+	"0265-4539" : "A", // The Scottish bulletin of evangelical theology
 	"2297-6167" : "A", // Revue d'histoire du protestantisme
 	"2154-7270" : "O", // International Journal of Cultic Studies
 	"Semitica" : "O", // Semitica
