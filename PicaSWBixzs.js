@@ -630,6 +630,7 @@ var journalMapping = {
 	"2053-6267" : "!394648986!", // The Huguenot Society Journal
 	"0340-6210" : "!480170290!", // Luther
 	"0026-587X" : "!015181243!", // Miscellanea Francescana
+	"0026587X" : "!015181243!", // Miscellanea Francescana
 	"0340-6407" : "!014895242!", // Oriens Christianus
 	"0030-6487" : "!014838737!", // Ostkirchliche Studien
 	"1529-1634" : "!106362623!", // Philosophia Christi
