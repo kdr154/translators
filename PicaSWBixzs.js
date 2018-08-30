@@ -893,7 +893,7 @@ var journalMapping = {
 	"00097497" : "!014962330!", // Citeaux - Commentarii Cistercienses
 	"0009-7497" : "!014962330!", // Citeaux - Commentarii Cistercienses
 	"2543-5973" : "!453525407!", // Annals of Theology/Roczniki teologiczne
-	
+	"2065-5940" : "!470961317!", // Review of Ecumenical Studies Sibiu
 	
 };
 
@@ -2015,6 +2015,8 @@ var issnPhysicalFormMapping = {
 	"00097497" : "A", // Citeaux - Commentarii Cistercienses
 	"0009-7497" : "A", // Citeaux - Commentarii Cistercienses
 	"2543-5973" : "O", // Annals of Theology/Roczniki teologiczne
+	"Review of Ecumenical Studies Sibiu" : "O", // Review of Ecumenical Studies Sibiu
+	"2065-5940" : "O", // Review of Ecumenical Studies Sibiu
 	
 	
 };
@@ -2112,6 +2114,8 @@ var issnLicenceFieldMapping = {
 	"0717-4675" : "l", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "l", // Veritas : Revista de Filosofía y Teología
 	"2543-5973" : "l", // Annals of Theology/Roczniki teologiczne
+	"Review of Ecumenical Studies Sibiu" : "l", // Review of Ecumenical Studies Sibiu
+	"2065-5940" : "l", // Review of Ecumenical Studies Sibiu
 
 	
 	
@@ -2458,6 +2462,7 @@ var issnJournalTitleMapping = {
 	"Semitica" : "!453619584!", // Semitica
 	"Tijdschrift voor Theologie" : "!333370279!", // Tijdschrift voor Theologie
 	"African ecclesial review. - Eldoret : Gaba Publications" : "!016233077!", // African ecclesial review
+	"Review of Ecumenical Studies Sibiu" : "!470961317!", // Review of Ecumenical Studies Sibiu
 	
 };
 
