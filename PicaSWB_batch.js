@@ -139,7 +139,7 @@ var journalMapping = {
 	"2159-340X" : "!344661555!", // Interpretation: A Journal of Bible and Theology
 	"0067-6535" : "!015191826!", // Biblical research
 	"0588-3237" : "!015194884!", // Colloquium
-	"0003-2980" : "!015189996!", // Andrews University Seminary studies
+	"0003-2980" : "!33069393X!", // Andrews University Seminary studies
 	"0118-8534" : "!273874004!", // Asian journal of pentecostal studies
 	"1477-8351" : "!103869212!", // Aramaic studies
 	"1745-5227" : "!103869212!", // Aramaic studies
@@ -1203,7 +1203,7 @@ var issnPhysicalFormMapping = {
 	"2159-340X" : "O", // Interpretation: A Journal of Bible and Theology
 	"0067-6535" : "A", // Biblical research
 	"0588-3237" : "A", // Colloquium
-	"0003-2980" : "A", // Andrews University Seminary studies
+	"0003-2980" : "O", // Andrews University Seminary studies
 	"0118-8534" : "O", // Asian journal of pentecostal studies
 	"01188534" : "O", // Asian journal of pentecostal studies
 	"1477-8351" : "A", // Aramaic studies
