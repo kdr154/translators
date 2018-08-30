@@ -892,6 +892,7 @@ var journalMapping = {
 	"0028-212X" : "!508474957!", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	"00097497" : "!014962330!", // Citeaux - Commentarii Cistercienses
 	"0009-7497" : "!014962330!", // Citeaux - Commentarii Cistercienses
+	"2543-5973" : "!453525407!", // Annals of Theology/Roczniki teologiczne
 	
 	
 };
@@ -2013,6 +2014,7 @@ var issnPhysicalFormMapping = {
 	"0028-212X" : "O", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	"00097497" : "A", // Citeaux - Commentarii Cistercienses
 	"0009-7497" : "A", // Citeaux - Commentarii Cistercienses
+	"2543-5973" : "O", // Annals of Theology/Roczniki teologiczne
 	
 	
 };
@@ -2109,6 +2111,7 @@ var issnLicenceFieldMapping = {
 	"07174675" : "l", // Veritas : Revista de Filosofía y Teología
 	"0717-4675" : "l", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "l", // Veritas : Revista de Filosofía y Teología
+	"2543-5973" : "l", // Annals of Theology/Roczniki teologiczne
 
 	
 	
