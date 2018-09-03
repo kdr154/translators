@@ -886,6 +886,7 @@ var journalMapping = {
 	"0009-7497" : "!014962330!", // Citeaux - Commentarii Cistercienses
 	"2543-5973" : "!453525407!", // Annals of Theology/Roczniki teologiczne
 	"2065-5940" : "!470961317!", // Review of Ecumenical Studies Sibiu
+	"2359-8107" : "!470961317!", // Review of Ecumenical Studies Sibiu
 
 	
 	
@@ -2015,6 +2016,7 @@ var issnPhysicalFormMapping = {
 	"2543-5973" : "O", // Annals of Theology/Roczniki teologiczne
 	"Review of Ecumenical Studies Sibiu" : "O", // Review of Ecumenical Studies Sibiu
 	"2065-5940" : "O", // Review of Ecumenical Studies Sibiu
+	"2359-8107" : "O", // Review of Ecumenical Studies Sibiu
 	
 		
 	
@@ -2115,7 +2117,7 @@ var issnLicenceFieldMapping = {
 	"2543-5973" : "l", // Annals of Theology/Roczniki teologiczne
 	"Review of Ecumenical Studies Sibiu" : "l", // Review of Ecumenical Studies Sibiu
 	"2065-5940" : "l", // Review of Ecumenical Studies Sibiu
-
+	"2359-8107" : "l", // Review of Ecumenical Studies Sibiu
 	
 	
 };

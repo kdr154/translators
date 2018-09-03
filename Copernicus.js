@@ -9,7 +9,7 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2016-12-28 00:00:00"
+	"lastUpdated": "2018-09-02 17:15:00"
 }
 
 /*
@@ -83,7 +83,7 @@ function scrape (doc, url){
 }
 
 function doWeb(doc, url) {
-	var arts = new Array();
+	var arts = [];
 	if (detectWeb(doc, url) == "multiple") {
 		var items = getSearchResults(doc);
 		Zotero.selectItems(items, function (items) {
@@ -96,7 +96,7 @@ function doWeb(doc, url) {
 			ZU.processDocuments(arts, scrape);
 		});
 	} else {
-		scrape(doc, url)
+		scrape(doc, url);
 	}
 }
 
