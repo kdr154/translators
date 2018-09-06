@@ -1694,6 +1694,7 @@ var issnPhysicalFormMapping = {
 	"1520-7307" : "O", // The Southern Baptist Journal of Theology
 	"2031-5929" : "O", // Annali di Scienze Religiose
 	"0034-673X, 2211-4866" : "O", // Review of Religious Research
+	"2211-4866" : "O", // Review of Religious Research
 	"1468-5906" : "O", // Journal for the Scientific Study of Religion
 	"00218294" : "O", // Journal for the Scientific Study of Religion
 	"03938417" : "O", // Studi e materiali di storia delle religioni
@@ -2308,6 +2309,7 @@ var issnSsgMapping = {
 	"0022-4197" : "0", // Journal of Religion and Health
 	"1467-9809" : "0", // Journal of religious history
 	"0034-673X, 2211-4866" : "0; 1", // Review of Religious Research
+	"2211-4866" : "0; 1", // Review of Religious Research
 	"03938417" : "0", // Studi e materiali di storia delle religioni
 	"1069-4404, 1759-8818" : "0; 1", // Sociology of religion
 	"1553-3913" : "0; 1", // Journal of feminist studies in religion
