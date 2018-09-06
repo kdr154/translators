@@ -609,6 +609,7 @@ var journalMapping = {
 	"00105236" : "!015241661!", // Concilium - Englische Ausgabe !!!!
 	"0010-5236" : "!015241661!", // Concilium - Englische Ausgabe !!!!
 	"0018-0645" : "!014406144!", // Herder Korrespondenz
+	"00180645" : "!014406144!", // Herder Korrespondenz
 	"0014-1437" : "!015178757!", // Estudios Biblicos
 	"1689-8311" : "!477533728!", // European Journal for Philosophy of Religion
 	"0024-5100" : "!014407558!", // Liturgisches Jahrbuch 
@@ -887,6 +888,9 @@ var journalMapping = {
 	"2543-5973" : "!453525407!", // Annals of Theology/Roczniki teologiczne
 	"2065-5940" : "!470961317!", // Review of Ecumenical Studies Sibiu
 	"2359-8107" : "!470961317!", // Review of Ecumenical Studies Sibiu
+	"0036-9306, 1475-3065" : "!097935182!", // Scottish Journal of Theology
+	"1475-3065" : "!097935182!", // Scottish Journal of Theology
+	"0036-9306" : "!097935182!", // Scottish Journal of Theology
 
 	
 	
@@ -1091,6 +1095,8 @@ var issnLangMapping = {
 	"0718-9273" : "spa", // Veritas : Revista de Filosofía y Teología
 	"1135-4712" : "spa", // 'Ílu
 	"0340-6083" : "ger", // Göttinger Predigtmeditationen
+	"00180645" : "ger", // Herder Korrespondenz
+	"0018-0645" : "ger", // Herder Korrespondenz
 	
 
 	
@@ -2017,6 +2023,9 @@ var issnPhysicalFormMapping = {
 	"Review of Ecumenical Studies Sibiu" : "O", // Review of Ecumenical Studies Sibiu
 	"2065-5940" : "O", // Review of Ecumenical Studies Sibiu
 	"2359-8107" : "O", // Review of Ecumenical Studies Sibiu
+	"0036-9306, 1475-3065" : "O", // Scottish Journal of Theology
+	"1475-3065" : "O", // Scottish Journal of Theology
+	"0036-9306" : "O", // Scottish Journal of Theology
 	
 		
 	
