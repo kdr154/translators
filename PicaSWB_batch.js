@@ -630,7 +630,7 @@ var journalMapping = {
 	"0033-1767" : "!015182266!", // Protestantesimo
 	"0172-6943" : "!015195635!", // Pietismus und Neuzeit
 	"1127-2171" : "!094950229!", // Studi sull'Oriente Cristiano
-	"1100-2298" : "!015190374!", // Svensk exegetisk årsbok
+	"1100-2298" : "!424051303!", // Svensk exegetisk årsbok
 	"03449254" : "!014583178!", // Unitas Fratrum
 	"0344-9254" : "!014583178!", // Unitas Fratrum
 	"03933849" : "!014791072!", // Rivista di scienze dell'educazione
@@ -1770,7 +1770,7 @@ var issnPhysicalFormMapping = {
 	"0033-1767" : "A", // Protestantesimo
 	"0172-6943" : "A", // Pietismus und Neuzeit
 	"1127-2171" : "A", // Studi sull'Oriente Cristiano
-	"1100-2298" : "A", // Svensk exegetisk årsbok
+	"1100-2298" : "O", // Svensk exegetisk årsbok
 	"03449254" : "A", // Unitas Fratrum
 	"03933849" : "A", // Rivista di scienze dell'educazione
 	"1120-8333" : "A", // Ricerche Teologiche
