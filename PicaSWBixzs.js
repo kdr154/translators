@@ -1651,6 +1651,7 @@ var issnPhysicalFormMapping = {
 	"1386-2820" : "O", // Ethical theory and moral practice
 	"00312789" : "O", // Pastoral psychology
 	"0038-1527, 1873-930X" : "O", // Sophia
+	"1873-930X" : "O", // Sophia
 	"0022-4197, 1573-6571" : "O", // Journal of Religion and Health
 	"1573-6571" : "O", // Journal of Religion and Health
 	"0022-4197" : "O", // Journal of Religion and Health
