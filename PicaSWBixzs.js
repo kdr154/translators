@@ -899,6 +899,7 @@ var journalMapping = {
 	"0036-9306, 1475-3065" : "!097935182!", // Scottish Journal of Theology
 	"1475-3065" : "!097935182!", // Scottish Journal of Theology
 	"0036-9306" : "!097935182!", // Scottish Journal of Theology
+	"1758-6623" : "!273867849!", // The Ecumenical Review
 
 	
 };
@@ -1433,7 +1434,7 @@ var issnPhysicalFormMapping = {
 	"0009-5753" : "A", // Christianity today !!eppn
 	"0009-6407" : "O", // Church history !!pppn
 	"1755-2613" : "O", // Church history !!eppn
-	"1758-6623" : "A", // The ecumenical review !!eppn
+	"1758-6623" : "O", // The ecumenical review !!eppn
 	"1758-6631" : "O", // International review of mission 
 	"00208582" : "O", // International review of mission
 	"0020-8582" : "O", // International review of mission !!eppn
@@ -2828,6 +2829,10 @@ function doExport() {
             addLine(currentItemId, "1140", "uwre");
         }
 
+		// 1140 text nur bei Online-Aufsätzen (Satztyp O), aber fakultativ
+		if (physicalForm === "O") {
+			addLine(currentItemId, "1140", "text");
+		}
 
         //item.language --> 1500 Sprachcodes
         if (item.language) {
