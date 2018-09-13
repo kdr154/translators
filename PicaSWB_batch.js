@@ -893,6 +893,7 @@ var journalMapping = {
 	"0036-9306" : "!097935182!", // Scottish Journal of Theology
 	"1758-6623" : "!273867849!", // The Ecumenical Review
 	"0101-8434" : "!015182908!", // Revista eclesiástica brasileira
+	"0034-3056" : "!015195597!", // Reformed World
 
 	
 	
@@ -2031,6 +2032,7 @@ var issnPhysicalFormMapping = {
 	"1475-3065" : "O", // Scottish Journal of Theology
 	"0036-9306" : "O", // Scottish Journal of Theology
 	"0101-8434" : "A", // Revista eclesiástica brasileira
+	"0034-3056" : "A", // Reformed World
 	
 		
 	
