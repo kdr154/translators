@@ -894,6 +894,8 @@ var journalMapping = {
 	"1758-6623" : "!273867849!", // The Ecumenical Review
 	"0101-8434" : "!015182908!", // Revista eclesiástica brasileira
 	"0034-3056" : "!015195597!", // Reformed World
+	"0214-2996" : "!024991813!", // Filología neotestamentaria 
+	"2521-179X" : "!477002420!", // Theological Reflections: Euro-Asian Journal of Theology
 
 	
 	
@@ -2033,6 +2035,8 @@ var issnPhysicalFormMapping = {
 	"0036-9306" : "O", // Scottish Journal of Theology
 	"0101-8434" : "A", // Revista eclesiástica brasileira
 	"0034-3056" : "A", // Reformed World
+	"0214-2996" : "A", // Filología neotestamentaria
+	"2521-179X" : "O", // Theological Reflections: Euro-Asian Journal of Theology
 	
 		
 	
@@ -2134,6 +2138,7 @@ var issnLicenceFieldMapping = {
 	"Review of Ecumenical Studies Sibiu" : "l", // Review of Ecumenical Studies Sibiu
 	"2065-5940" : "l", // Review of Ecumenical Studies Sibiu
 	"2359-8107" : "l", // Review of Ecumenical Studies Sibiu
+	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
 	
 	
 };
