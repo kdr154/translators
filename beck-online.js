@@ -9,7 +9,7 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcs",
-	"lastUpdated": "2018-09-08 16:35:00"
+	"lastUpdated": "2018-09-14 01:35:00"
 }
 
 /*
@@ -270,7 +270,7 @@ function scrapeBook(doc, url) {
 	}
 	item.ISBN = text(doc, '#titelseitetext .__beck_titelei_impressum_isbn');
 	item.rights = text(doc, '#titelseitetext .__beck_titelei_impressum_p');
-	if (item.rights.includes("Beck")) {
+	if (item.rights && item.rights.includes("Beck")) {
 		item.publisher = "Verlag C. H. Beck";
 		item.place = "München";
 	}

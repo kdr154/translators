@@ -1,32 +1,37 @@
 {
 	"translatorID": "c216ae06-da95-4fd0-bce8-38de1f6cf17c",
+	"translatorType": 4,
 	"label": "Peeters",
 	"creator": "Timotheus Kim",
 	"target": "^https?://(www\\.)?poj\\.peeters-leuven\\.be/content\\.php",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-27 11:46:30"
+	"lastUpdated": "2018-09-15 01:35:00"
 }
 
 /*
 	***** BEGIN LICENSE BLOCK *****
+
 	Copyright © 2018 Timotheus Chang-Whae Kim, Johannes Ruscheinski, Philipp Zumstein
 	
 	This file is part of Zotero.
+
 	Zotero is free software: you can redistribute it and/or modify
 	it under the terms of the GNU Affero General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.
+
 	Zotero is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU Affero General Public License for more details.
+
 	You should have received a copy of the GNU Affero General Public License
 	along with Zotero. If not, see <http://www.gnu.org/licenses/>.
+
 	***** END LICENSE BLOCK *****
 */
 
@@ -95,7 +100,7 @@ function getValue(nodes) {
 			value += part.textContent.trim();
 		}
 	}
-	return value.replace(/\<i\>/g, '').replace(/\<\/i\>/g, '');
+	return value;
 }
 
 
@@ -107,12 +112,15 @@ function scrape(doc, url) {
 	var subtitleNodes = ZU.xpath(doc, '//b[contains(text(), "Subtitle:")]/following-sibling::node()');
 	var subtitle = getValue(subtitleNodes);
 	if (subtitle) {
-		item.title = ZU.unescapeHTML(item.title += ': ' + subtitle);
+		item.title += ': ' + subtitle;
 	}
 	
 	// e.g. Author(s): HANDAL, Boris , WATSON, Kevin , ..., VAN DER MERWE, W.L.
 	// but sometimes the space before the comma is also missing
-	var authors = ZU.xpathText(doc, '//b[contains(text(), "Author(s):")]/following-sibling::text()[1]').split(',');
+	var authors = ZU.xpathText(doc, '//b[contains(text(), "Author(s):")]/following-sibling::text()[1]');
+	if (authors) {
+		authors = authors.split(',');
+	}
 	var creator;
 	for (let i=0; i<authors.length; i++) {
 		let name = authors[i];
@@ -134,8 +142,7 @@ function scrape(doc, url) {
 	item.date = ZU.xpathText(doc, '//b[contains(text(), "Date:")]/following-sibling::text()[1]');
 	item.pages = ZU.xpathText(doc, '//b[contains(text(), "Pages:")]/following-sibling::text()[1]');
 	item.DOI = ZU.xpathText(doc, '//b[contains(text(), "DOI:")]/following-sibling::text()[1]');
-	item.abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()|//b[contains(text(), "Abstract :")]/following::i', '', '');
-	item.ISSN = ZU.xpathText(doc, '//b[contains(text(), "Journal:")]/following-sibling::a[1]');
+	item.abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()[1]');
 	
 	item.attachments.push({
 		url: url,
@@ -548,7 +555,7 @@ var testCases = [
 		"items": [
 			{
 				"itemType": "journalArticle",
-				"title": "The Unedited Life of St John Chrysostom by Nicetas David the Paphlagonian: Editio princeps , Part I",
+				"title": "The Unedited <i>Life</i> of St John Chrysostom by Nicetas David the Paphlagonian:  <i>Editio princeps</i> , Part I",
 				"creators": [
 					{
 						"creatorType": "author",
@@ -562,7 +569,7 @@ var testCases = [
 				"libraryCatalog": "Peeters",
 				"pages": "1-67",
 				"publicationTitle": "Byzantion",
-				"shortTitle": "The Unedited Life of St John Chrysostom by Nicetas David the Paphlagonian",
+				"shortTitle": "The Unedited <i>Life</i> of St John Chrysostom by Nicetas David the Paphlagonian",
 				"volume": "87",
 				"attachments": [
 					{
@@ -575,11 +582,6 @@ var testCases = [
 				"seeAlso": []
 			}
 		]
-	},
-	{
-		"type": "web",
-		"url": "http://poj.peeters-leuven.be/content.php?url=issue&journal_code=BYZ&issue=0&vol=87",
-		"items": "multiple"
 	}
 ]
 /** END TEST CASES **/

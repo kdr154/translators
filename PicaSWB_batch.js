@@ -594,7 +594,7 @@ var journalMapping = {
 	"0039-3258" : "!01453455X!", // Studia monastica
 	"0585-766X" : "!015193594!", // Studium revista de filosofía y teología
 	"0392-4556" : "!015348334!", // Teresianum
-	"0342-1465" : "!500296367!", // Una Sancta
+	"0342-1465" : "!014827182!", // Una Sancta
 	"0042-3718" : "!015193608!", // Verdad y vida
 	"0009-7756" : "!015191028!", // Ciudad de Dios
 	"0017-4114" : "!014405377!", // Gregorianum
@@ -1744,7 +1744,7 @@ var issnPhysicalFormMapping = {
 	"0039-3258" : "A", // Studia monastica
 	"0585-766X" : "A", // Studium revista de filosofía y teología
 	"0392-4556" : "A", // Teresianum
-	"0342-1465" : "O", // Una Sancta
+	"0342-1465" : "A", // Una Sancta
 	"0042-3718" : "A", // Verdad y vida
 	"0009-7756" : "A", // Ciudad de Dios
 	"0017-4114" : "A", // Gregorianum
@@ -1901,7 +1901,7 @@ var issnPhysicalFormMapping = {
 	"0035-2217" : "A", // Revue des Sciences Religieuses
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
-	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
+	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society
 	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
@@ -2444,7 +2444,7 @@ var issnKeywordMapping = {
 // Mapping für JournalTitle>PPN
 var issnJournalTitleMapping = {
 	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
-	"Journal of the Evangelical Theological Society" : "!345580796!", // Journal of the Evangelical Theological Society Print-PPN
+	"Journal of the Evangelical Theological Society" : "!345580796!", // Journal of the Evangelical Theological Society
 	"American Baptist Quarterly" : "!015260909!", // American Baptist Quarterly Print-PPN
 	"Churchman" : "!015191273!", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
