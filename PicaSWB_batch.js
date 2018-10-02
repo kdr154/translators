@@ -896,6 +896,7 @@ var journalMapping = {
 	"0034-3056" : "!015195597!", // Reformed World
 	"0214-2996" : "!024991813!", // Filología neotestamentaria 
 	"2521-179X" : "!477002420!", // Theological Reflections: Euro-Asian Journal of Theology
+	
 
 	
 	
@@ -2037,6 +2038,8 @@ var issnPhysicalFormMapping = {
 	"0034-3056" : "A", // Reformed World
 	"0214-2996" : "A", // Filología neotestamentaria
 	"2521-179X" : "O", // Theological Reflections: Euro-Asian Journal of Theology
+	"Journal of Septuagint and Cognate Studies" : "O", // Journal of Septuagint and Cognate Studies
+
 	
 		
 	
@@ -2491,6 +2494,7 @@ var issnJournalTitleMapping = {
 	"Tijdschrift voor Theologie" : "!333370279!", // Tijdschrift voor Theologie
 	"African ecclesial review. - Eldoret : Gaba Publications" : "!016233077!", // African ecclesial review
 	"Review of Ecumenical Studies Sibiu" : "!470961317!", // Review of Ecumenical Studies Sibiu
+	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
  
 
 };
