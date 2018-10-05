@@ -2041,6 +2041,7 @@ var issnPhysicalFormMapping = {
 	"0214-2996" : "A", // Filología neotestamentaria
 	"2521-179X" : "O", // Theological Reflections: Euro-Asian Journal of Theology
 	"Journal of Septuagint and Cognate Studies" : "O", // Journal of Septuagint and Cognate Studies
+	"Journal of the Grace Evangelical Society" : "O", // Journal of the Grace Evangelical Society
 
 	
 	
@@ -2492,6 +2493,7 @@ var issnJournalTitleMapping = {
 	"African ecclesial review. - Eldoret : Gaba Publications" : "!016233077!", // African ecclesial review
 	"Review of Ecumenical Studies Sibiu" : "!470961317!", // Review of Ecumenical Studies Sibiu
 	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
+	"Journal of the Grace Evangelical Society" : "!281228884!", // Journal of the Grace Evangelical Society
 	
 };
 
