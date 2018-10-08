@@ -725,8 +725,8 @@ var journalMapping = {
 	"2236-6296" : "!407570608!", // Numen
 	"2196-6265" : "!370217381!", // Jahrbuch für Christliche Sozialwissenschaften
 	"0004-8011" : "!445969504!", // Augustinianum
-	"1065223X" : "!347283926!", // Bulletin of the Biblical Research
-	"1065-223X" : "!347283926!", // Bulletin of the Biblical Research
+	"1065223X" : "!038868164!", // Bulletin of the Biblical Research
+	"1065-223X" : "!038868164!", // Bulletin of the Biblical Research
 	"0026-1238" : "!420019235!", // Methodist History
 	"10626549" : "!273885499!", // Cistercian studies quarterly
 	"1062-6549" : "!273885499!", // Cistercian studies quarterly
@@ -1856,8 +1856,8 @@ var issnPhysicalFormMapping = {
 	"2236-6296" : "O", // Numen
 	"2196-6265" : "O", // Jahrbuch für Christliche Sozialwissenschaften
 	"0004-8011" : "O", // Augustinianum
-	"1065223X" : "O", // Bulletin of the Biblical Research
-	"1065-223X" : "O", // Bulletin of the Biblical Research
+	"1065223X" : "A", // Bulletin of the Biblical Research
+	"1065-223X" : "A", // Bulletin of the Biblical Research
 	"0026-1238" : "O", // Methodist History
 	"10626549" : "O", // Cistercian studies quarterly
 	"0745-3698" : "A", // American Baptist Quarterly
