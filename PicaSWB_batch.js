@@ -898,6 +898,8 @@ var journalMapping = {
 	"2521-179X" : "!477002420!", // Theological Reflections: Euro-Asian Journal of Theology
 	"2169-3994" : "!423618466!", // Conversations with the Biblical World
 	"0035-7812" : "!50693165X!", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
+	"0016-5921" : "!347272991!", // Geist und Leben
+	"00165921" : "!347272991!", // Geist und Leben
 
 	
 	
@@ -1105,6 +1107,8 @@ var issnLangMapping = {
 	"00180645" : "ger", // Herder Korrespondenz
 	"0018-0645" : "ger", // Herder Korrespondenz
 	"0035-7812" : "ger", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
+	"0016-5921" : "ger", // Geist und Leben
+	"00165921" : "ger", // Geist und Leben
 
 	
 
@@ -2043,6 +2047,9 @@ var issnPhysicalFormMapping = {
 	"Journal of the Grace Evangelical Society" : "O", // Journal of the Grace Evangelical Society
 	"2169-3994" : "O", // Conversations with the Biblical World
 	"0035-7812" : "O", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
+	"0016-5921" : "O", // Geist und Leben
+	"00165921" : "O", // Geist und Leben
+	
 
 	
 		
