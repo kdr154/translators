@@ -904,6 +904,7 @@ var journalMapping = {
 	"0034-3056" : "!015195597!", // Reformed World
 	"0214-2996" : "!024991813!", // Filología neotestamentaria
 	"2521-179X" : "!477002420!", // Theological Reflections: Euro-Asian Journal of Theology
+	"0035-7812" : "!50693165X!", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 
 	
 };
@@ -1109,6 +1110,7 @@ var issnLangMapping = {
 	"0340-6083" : "ger", // Göttinger Predigtmeditationen
 	"00180645" : "ger", // Herder Korrespondenz
 	"0018-0645" : "ger", // Herder Korrespondenz
+	"0035-7812" : "ger", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 
 
 	
@@ -2042,6 +2044,7 @@ var issnPhysicalFormMapping = {
 	"2521-179X" : "O", // Theological Reflections: Euro-Asian Journal of Theology
 	"Journal of Septuagint and Cognate Studies" : "O", // Journal of Septuagint and Cognate Studies
 	"Journal of the Grace Evangelical Society" : "O", // Journal of the Grace Evangelical Society
+	"0035-7812" : "O", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 
 	
 	
@@ -2429,6 +2432,7 @@ var issnSsgMapping = {
 	"0034-3951" : "0; 1", // Religion and Society Print-PPN
 	"2396-9393" : "0; 1", // International bulletin of mission research
 	"0028-212X" : "0; 1", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
+	"0025-8911" : "0; 1", // Mélanges de science religieuse
 
 	
 };

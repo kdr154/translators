@@ -9,7 +9,7 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-09-28 16:25:00"
+	"lastUpdated": "2018-10-08 13:10:00"
 }
 
 /*
@@ -32,7 +32,7 @@
 	along with Zotero.  If not, see <http://www.gnu.org/licenses/>.
 	
 	***** END LICENSE BLOCK *****
-	
+*/ 	
 // URLs
 // trial: div=t18000115-12
 // session: name=16900430
