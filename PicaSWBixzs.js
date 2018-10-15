@@ -399,7 +399,7 @@ var journalMapping = {
 	"00055719" : "!325341265!", // Baptist history and heritage
 	"0210-7112" : "!506930882!", // Revista española de teología
 	"2466-8583" : "!462777774!", // Revue biblique
-	"0039-3207" : "!01518529X!", // Studia liturgica
+	"0039-3207" : "!510568742!", // Studia liturgica
 	"0043-941X" : "!015195163!", // Worship. A review concerned with the problems of liturgical renewal
 	"0022-4480, 1477-8556" : "!100202497!", // Journal of Semitic Studies
 	"1477-8556" : "!100202497!", // Journal of Semitic Studies
@@ -1588,7 +1588,7 @@ var issnPhysicalFormMapping = {
 	"00219231" : "O", // Journal of biblical literature !!eppn
 	"0210-7112" : "O", // Revista española de teología
 	"2466-8583" : "O", // Revue biblique
-	"0039-3207" : "A", // Studia liturgica
+	"0039-3207" : "O", // Studia liturgica
 	"0043-941X" : "A", // Worship. A review concerned with the problems of liturgical renewal
 	"0022-4480, 1477-8556" : "O", // Journal of Semitic Studies
 	"2304-8557" : "O", // Koers Bulletin for Christian Scholarship
@@ -1933,7 +1933,6 @@ var issnPhysicalFormMapping = {
 	"Religion and Society" : "A", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "O", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
-	"One in Christ" : "A", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "O", // The Reformed Theological Review E-PPN
 	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
 	"Philosophia Christi" : "A", // Philosophia Christi
@@ -2474,7 +2473,6 @@ var issnJournalTitleMapping = {
 	"Religion and Society" : "!015198073!", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "!410016403!", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
-	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
 	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
 	"Philosophia Christi" : "!106362623!", // Philosophia Christi
