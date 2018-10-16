@@ -176,6 +176,7 @@ var journalMapping = {
 	"0006-2014" : "!014828995!", // Biblische Zeitschrift
 	"1469-8145" : "!079165583!", // New Testament Studies
 	"0028-6885, 1469-8145" : "!079165583!", // New Testament studies
+	"0028-6885" : "!079165583!", // New Testament studies
 	"0048-1009" : "!014862662!", // Novum Testamentum
 	"0040-571X" : "!336956738!", // Theology
 	"2044-2696" : "!336956738!", // Theology
@@ -1256,6 +1257,7 @@ var issnPhysicalFormMapping = {
 	"0006-2014" : "A", // Biblische Zeitschrift
 	"1469-8145" : "O", // New Testament studies
 	"0028-6885, 1469-8145" : "O", // New Testament studies
+	"0028-6885" : "O", // New Testament studies
 	"0048-1009" : "A", // Novum Testamentum
 	"0040-571X" : "O", // Theology
 	"2044-2696" : "O", // Theology
