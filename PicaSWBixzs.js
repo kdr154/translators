@@ -2052,6 +2052,7 @@ var issnPhysicalFormMapping = {
 	"0035-7812" : "O", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 	"0016-5921" : "O", // Geist und Leben
 	"00165921" : "O", // Geist und Leben
+	"Revue Biblique" : "O", // Revue Biblique
 
 	
 	
@@ -2504,6 +2505,7 @@ var issnJournalTitleMapping = {
 	"Review of Ecumenical Studies Sibiu" : "!470961317!", // Review of Ecumenical Studies Sibiu
 	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
 	"Journal of the Grace Evangelical Society" : "!281228884!", // Journal of the Grace Evangelical Society
+	"Revue Biblique" : "!462777774!", // Revue Biblique
 	
 };
 
