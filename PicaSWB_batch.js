@@ -458,7 +458,6 @@ var journalMapping = {
 	"2408-9370" : "!452474043!", // Journal for religion, film and media
 	"2414-0201" : "!452474043!", // Journal for religion, film and media
 	"2159-8711" : "!477607594!", // Journal for the sociological integration of religion and society
-	"1783-1520" : "!102190003!", // Journal of Eastern Christian studies
 	"0035-1423" : "!27177388X!", // Histoire des Religions
 	"1869-3261" : "!36002842X!", // Diaconia
 	"0043-2547" : "!31531964X!", // Die Welt des Orients
@@ -1637,7 +1636,6 @@ var issnPhysicalFormMapping = {
 	"2408-9370" : "O", // Journal for religion, film and media
 	"2414-0201" : "O", // Journal for religion, film and media
 	"2159-8711" : "O", // Journal for the sociological integration of religion and society
-	"1783-1520" : "A", // Journal of Eastern Christian studies
 	"0035-1423" : "O", // Histoire des Religions
 	"1869-3261" : "O", // Diaconia
 	"0043-2547" : "O", // Die Welt des Orients
@@ -1948,7 +1946,6 @@ var issnPhysicalFormMapping = {
 	"Antonianum" : "A", // Antonianum
 	"Dialogue & Alliance" : "A", // Dialogue & Alliance
 	"Luther" : "O", // Luther, Zeitschrift der Luthergesellschaft
-	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
 	"Louvain Studies" : "O", // Louvain Studies
 	"2518-4628" : "O", // Neotestamentica
@@ -2491,7 +2488,6 @@ var issnJournalTitleMapping = {
 	"Antonianum" : "!014992124!", // Antonianum
 	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
 	"Luther" : "!480170290!", // Luther, Zeitschrift der Luthergesellschaft
-	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
 	"Louvain Studies" : "!113144229!", // Louvain Studies
 	"ARC" : "!059754931!", // ARC
