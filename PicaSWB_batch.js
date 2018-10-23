@@ -900,6 +900,11 @@ var journalMapping = {
 	"0035-7812" : "!50693165X!", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 	"0016-5921" : "!347272991!", // Geist und Leben
 	"00165921" : "!347272991!", // Geist und Leben
+	"0017-8160, 1475-4517" : "!094533326!", // The Harvard theological review
+	"0017-8160" : "!094533326!", // The Harvard theological review 
+	"1475-4517" : "!094533326!", // The Harvard theological review 
+	"0178-2967" : "!506884805!", // Biblische Notizen
+	"1697-2104" : "!352346620!", // Collectanea Christiana orientalia
 
 	
 	
@@ -1425,8 +1430,9 @@ var issnPhysicalFormMapping = {
 	"1091-6687" : "A", // Logos : a journal of catholic thought and culture !!pppn
 	"1568-5152" : "A", // Biblical interpretation !!eppn
 	"0003-097X" : "A", // Bulletin of the American Schools of Oriental Research !!pppn
-	"0017-8160" : "A", // The Harvard theological review !!pppn
-	"1475-4517" : "A", // The Harvard theological review !!eppn
+	"0017-8160, 1475-4517" : "O", // The Harvard theological review
+	"0017-8160" : "O", // The Harvard theological review 
+	"1475-4517" : "O", // The Harvard theological review 
 	"1535-3117" : "A", // Spiritus !!eppn
 	"0034-4087" : "A", // Religious education !!pppn
 	"0002-7049" : "A", // America !!pppn
@@ -2048,6 +2054,8 @@ var issnPhysicalFormMapping = {
 	"0016-5921" : "O", // Geist und Leben
 	"00165921" : "O", // Geist und Leben
 	"Revue Biblique" : "O", // Revue Biblique
+	"0178-2967" : "O", // Biblische Notizen
+	"1697-2104" : "O", // Collectanea Christiana orientalia
 	
 
 	
@@ -2152,6 +2160,7 @@ var issnLicenceFieldMapping = {
 	"2065-5940" : "l", // Review of Ecumenical Studies Sibiu
 	"2359-8107" : "l", // Review of Ecumenical Studies Sibiu
 	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
+	"1697-2104" : "l", // Collectanea Christiana orientalia
 	
 	
 };
