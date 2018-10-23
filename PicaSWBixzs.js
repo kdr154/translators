@@ -912,6 +912,7 @@ var journalMapping = {
 	"1475-4517" : "!094533326!", // The Harvard theological review 
 	"0178-2967" : "!506884805!", // Biblische Notizen
 	"1697-2104" : "!352346620!", // Collectanea Christiana orientalia
+	"0010-3713" : "!318817489!", // Communio viatorum
 
 	
 };
@@ -2059,6 +2060,7 @@ var issnPhysicalFormMapping = {
 	"Revue Biblique" : "O", // Revue Biblique
 	"0178-2967" : "O", // Biblische Notizen
 	"1697-2104" : "O", // Collectanea Christiana orientalia
+	"0010-3713" : "O", // Communio viatorum
 
 	
 	
