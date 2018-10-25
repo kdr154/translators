@@ -913,6 +913,7 @@ var journalMapping = {
 	"0178-2967" : "!506884805!", // Biblische Notizen
 	"1697-2104" : "!352346620!", // Collectanea Christiana orientalia
 	"0010-3713" : "!318817489!", // Communio viatorum
+	"2169-3994" : "!423618466!", // Conversations with the Biblical World
 
 	
 };
@@ -2061,6 +2062,7 @@ var issnPhysicalFormMapping = {
 	"0178-2967" : "O", // Biblische Notizen
 	"1697-2104" : "O", // Collectanea Christiana orientalia
 	"0010-3713" : "O", // Communio viatorum
+	"2169-3994" : "O", // Conversations with the Biblical World
 
 	
 	
