@@ -2225,10 +2225,10 @@ var issnSsgMapping = {
 	"0497-1817" : "0; 1", // Temenos
 	"2342-7256" : "0; 1", // Temenos
 	"0890-1112" : "0", // Journal of ritual studies
-	"0011-1953" : "0; 1", // Cross currents
-	"1939-3881" : "0; 1", // Cross currents
-	"00111953" : "0; 1", // Cross currents
-	"19393881" : "0; 1", // Cross currents
+	"0011-1953" : "0", // Cross currents
+	"1939-3881" : "0", // Cross currents
+	"00111953" : "0", // Cross currents
+	"19393881" : "0", // Cross currents
 	"0229-2807" : "0; 1", // ARC
 	"1934-9637" : "0; 1", // Journal of spirituality in mental health
 	"1934-9645" : "0; 1", // Journal of spirituality in mental health
