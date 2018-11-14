@@ -346,6 +346,7 @@ var journalMapping = {
 	"0044-3549" : "!252209540!", // Zeitschrift für Theologie und Kirche
 	"2195-9773" : "!404297986!", // Philosophy, Theology and the Sciences
 	"0944-5706" : "!307015734!", // Jewish Studies Quarterly
+	"1868-6788" : "!307015734!", // Jewish Studies Quarterly
 	"2192-2276" : "!433582189!", // Hebrew Bible and Ancient Israel
 	"1063-8512" : "!033050201!", // Pro ecclesia
 	"1890-7008, 0809-7291" : "!477911633!", // Nordic journal of religion and society 
@@ -1549,6 +1550,7 @@ var issnPhysicalFormMapping = {
 	"0040-5698" : "O", // Theologische Rundschau
 	"0044-3549" : "O", // Zeitschrift für Theologie und Kirche
 	"0944-5706" : "O", // Jewish Studies Quarterly
+	"1868-6788" : "O", // Jewish Studies Quarterly
 	"2195-9773" : "O", // Philosophy, Theology and the Sciences
 	"2192-2276" : "O", // Hebrew Bible and Ancient Israel
 	"00143367" : "A", // Evangelical quarterly
@@ -2293,6 +2295,7 @@ var issnSsgMapping = {
 	"2294-6209" : "0, 1", // Byzantion
 	"Byzantion" : "0; 1", // Byzantion
 	"0944-5706" : "0; 1", // Jewish Studies Quarterly
+	"1868-6788" : "0; 1", // Jewish Studies Quarterly
 	"2199-4463" : "0", // Religion in the Roman Empire
 	"1890-7008, 0809-7291" : "0; 1", // Nordic journal of religion and society
 	"0003-1224" : "FID-KRIM-DE-21", // American sociological review Online Publikation|krimdok
@@ -2519,6 +2522,7 @@ var issnJournalTitleMapping = {
 	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
 	"Journal of the Grace Evangelical Society" : "!281228884!", // Journal of the Grace Evangelical Society
 	"Revue Biblique" : "!462777774!", // Revue Biblique
+	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly
 	
 };
 
