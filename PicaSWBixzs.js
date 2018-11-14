@@ -914,6 +914,7 @@ var journalMapping = {
 	"1697-2104" : "!352346620!", // Collectanea Christiana orientalia
 	"0010-3713" : "!318817489!", // Communio viatorum
 	"2169-3994" : "!423618466!", // Conversations with the Biblical World
+	"0179-7239" : "!48363056X!", // Kirche und Israel
 
 	
 };
@@ -1122,6 +1123,7 @@ var issnLangMapping = {
 	"0035-7812" : "ger", // Römische Quartalschrift für christliche Altertumskunde und Kirchengeschichte
 	"0016-5921" : "ger", // Geist und Leben
 	"00165921" : "ger", // Geist und Leben
+	"0179-7239" : "ger", // Kirche und Israel
 
 
 	
@@ -2063,6 +2065,7 @@ var issnPhysicalFormMapping = {
 	"1697-2104" : "O", // Collectanea Christiana orientalia
 	"0010-3713" : "O", // Communio viatorum
 	"2169-3994" : "O", // Conversations with the Biblical World
+	"0179-7239" : "O", // Kirche und Israel
 
 	
 	
