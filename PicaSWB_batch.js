@@ -301,8 +301,8 @@ var journalMapping = {
 	"0044-3441" : "!14821419!", // Zeitschrift für Religions- und Geistesgeschichte
 	"1862-5886" : "!281314136!", // Zeitschrift für junge Religionswissenschaft
 	"1612-2941" : "!281189013!", // Marburg Journal of Religion
-	"0017-2251" : "!015194361!", // Christian scholar’s review
-	"00172251" : "!015194361!", // Christian scholar’s review
+	"0017-2251" : "!339261773!", // Christian scholar’s review
+	"00172251" : "!339261773!", // Christian scholar’s review
 	"0774-5524" : "!015182746!", // Questions liturgiques
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "!112891241!", // Studies in Interreligious Dialogue
@@ -1513,8 +1513,8 @@ var issnPhysicalFormMapping = {
 	"0044-3441" : "A", // Zeitschrift für Religions- und Geistesgeschichte
 	"1862-5886" : "O", // Zeitschrift für junge Religionswissenschaft
 	"1612-2941" : "O", // Marburg Journal of Religion
-	"0017-2251":  "A", // Christian scholar’s review
-	"00172251":  "A", // Christian scholar’s review
+	"0017-2251":  "O", // Christian scholar’s review
+	"00172251":  "O", // Christian scholar’s review
 	"0774-5524" : "A", // Questions liturgiques
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "O", // Studies in Interreligious Dialogue
