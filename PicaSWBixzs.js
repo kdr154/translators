@@ -916,6 +916,8 @@ var journalMapping = {
 	"0010-3713" : "!318817489!", // Communio viatorum
 	"2169-3994" : "!423618466!", // Conversations with the Biblical World
 	"0179-7239" : "!48363056X!", // Kirche und Israel
+	"2165-5413" : "!398102627!", // Journal of Africana Religions
+	"2165-5405" : "!398102627!", // Journal of Africana Religions
 
 	
 };
@@ -2068,6 +2070,8 @@ var issnPhysicalFormMapping = {
 	"0010-3713" : "O", // Communio viatorum
 	"2169-3994" : "O", // Conversations with the Biblical World
 	"0179-7239" : "O", // Kirche und Israel
+	"2165-5413" : "O", // Journal of Africana Religions
+	"2165-5405" : "O", // Journal of Africana Religions
 
 	
 	
@@ -2458,6 +2462,8 @@ var issnSsgMapping = {
 	"2396-9393" : "0; 1", // International bulletin of mission research
 	"0028-212X" : "0; 1", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	"0025-8911" : "0; 1", // Mélanges de science religieuse
+	"2165-5413" : "0", // Journal of Africana Religions
+	"2165-5405" : "0", // Journal of Africana Religions
 
 	
 };

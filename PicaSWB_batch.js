@@ -908,6 +908,8 @@ var journalMapping = {
 	"1697-2104" : "!352346620!", // Collectanea Christiana orientalia
 	"0010-3713" : "!318817489!", // Communio viatorum
 	"0179-7239" : "!48363056X!", // Kirche und Israel
+	"2165-5413" : "!398102627!", // Journal of Africana Religions
+	"2165-5405" : "!398102627!", // Journal of Africana Religions
 
 	
 	
@@ -2063,6 +2065,8 @@ var issnPhysicalFormMapping = {
 	"1697-2104" : "O", // Collectanea Christiana orientalia
 	"0010-3713" : "O", // Communio viatorum
 	"0179-7239" : "O", // Kirche und Israel
+	"2165-5413" : "O", // Journal of Africana Religions
+	"2165-5405" : "O", // Journal of Africana Religions
 
 	
 		
@@ -2454,6 +2458,8 @@ var issnSsgMapping = {
 	"2396-9393" : "0; 1", // International bulletin of mission research
 	"0028-212X" : "0; 1", // Nederlands theologisch tijdschrift (NTT: Journal for theology and the study of religion)
 	"0025-8911" : "0; 1", // Mélanges de science religieuse
+	"2165-5413" : "0", // Journal of Africana Religions
+	"2165-5405" : "0", // Journal of Africana Religions
 	
 
  
@@ -2522,7 +2528,7 @@ var issnJournalTitleMapping = {
 	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
 	"Journal of the Grace Evangelical Society" : "!281228884!", // Journal of the Grace Evangelical Society
 	"Revue Biblique" : "!462777774!", // Revue Biblique
-	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly
+	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly - dann aktivieren, wenn Zuordnung über ISSN nicht verwendet wird. Beide Einträge aktiv führt zu einem Fehler
  
 
 };
