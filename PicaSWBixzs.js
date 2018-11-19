@@ -918,6 +918,7 @@ var journalMapping = {
 	"0179-7239" : "!48363056X!", // Kirche und Israel
 	"2165-5413" : "!398102627!", // Journal of Africana Religions
 	"2165-5405" : "!398102627!", // Journal of Africana Religions
+	"1552-8030" : "!306834588!", // Journal of Religion, Spirituality & Aging
 
 	
 };
@@ -2072,6 +2073,7 @@ var issnPhysicalFormMapping = {
 	"0179-7239" : "O", // Kirche und Israel
 	"2165-5413" : "O", // Journal of Africana Religions
 	"2165-5405" : "O", // Journal of Africana Religions
+	"1552-8030" : "O", // Journal of Religion, Spirituality & Aging
 
 	
 	
@@ -2464,6 +2466,7 @@ var issnSsgMapping = {
 	"0025-8911" : "0; 1", // Mélanges de science religieuse
 	"2165-5413" : "0", // Journal of Africana Religions
 	"2165-5405" : "0", // Journal of Africana Religions
+	"1552-8030" : "0", // Journal of Religion, Spirituality & Aging
 
 	
 };
