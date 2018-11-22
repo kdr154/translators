@@ -801,6 +801,7 @@ var journalMapping = {
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
+	"0254-8356" : "!410110930!", // Neotestamentica
 	"0119-3228" : "!080988326!", // Journal of Asian Mission
 	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
 	"2364-382X" : "!424664925!", // Gamevironments
