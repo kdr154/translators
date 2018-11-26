@@ -1109,7 +1109,6 @@ var issnLangMapping = {
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
 	"0033-1767" : "ita", // Protestantesimo
 	"0035-2217" : "fre", // Revue des Sciences Religieuses
-	"1768-9260" : "fre", // Revue d'Etudes Augustiniennes et Patristiques
 	"0039-6761" : "swe", // Svensk teologisk kvartalskrift
 	"0049-3449" : "spa", // Teología y vida
 	"0035-6573" : "ita", // Rivista di storia e letteratura religiosa

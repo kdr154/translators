@@ -912,6 +912,9 @@ var journalMapping = {
 	"2165-5413" : "!398102627!", // Journal of Africana Religions
 	"2165-5405" : "!398102627!", // Journal of Africana Religions
 	"1552-8030" : "!306834588!", // Journal of Religion, Spirituality & Aging
+	"1051-3558" : "!47637314X!", // American Catholic Philosophical Quarterly
+	"10513558" : "!47637314X!", // American Catholic Philosophical Quarterly
+	
 
 	
 	
@@ -1102,7 +1105,6 @@ var issnLangMapping = {
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
 	"0033-1767" : "ita", // Protestantesimo
 	"0035-2217" : "fre", // Revue des Sciences Religieuses
-	"1768-9260" : "fre", // Revue d'Etudes Augustiniennes et Patristiques
 	"0039-6761" : "swe", // Svensk teologisk kvartalskrift
 	"0049-3449" : "spa", // Teología y vida
 	"0035-6573" : "ita", // Rivista di storia e letteratura religiosa
@@ -2070,6 +2072,8 @@ var issnPhysicalFormMapping = {
 	"2165-5413" : "O", // Journal of Africana Religions
 	"2165-5405" : "O", // Journal of Africana Religions
 	"1552-8030" : "O", // Journal of Religion, Spirituality & Aging
+	"1051-3558" : "O", // American Catholic Philosophical Quarterly
+	"10513558" : "O", // American Catholic Philosophical Quarterly
 
 	
 		
