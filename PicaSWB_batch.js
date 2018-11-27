@@ -1124,6 +1124,7 @@ var issnLangMapping = {
 	"0016-5921" : "ger", // Geist und Leben
 	"00165921" : "ger", // Geist und Leben
 	"0179-7239" : "ger", // Kirche und Israel
+	"0048-7988" : "fre", // Revue d'Histoire de l'Eglise de France
 
 	
 
