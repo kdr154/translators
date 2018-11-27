@@ -914,7 +914,8 @@ var journalMapping = {
 	"1552-8030" : "!306834588!", // Journal of Religion, Spirituality & Aging
 	"1051-3558" : "!47637314X!", // American Catholic Philosophical Quarterly
 	"10513558" : "!47637314X!", // American Catholic Philosophical Quarterly
-	
+	"1947-6566" : "!325341621!", // Journal of Medieval Religious Cultures
+	"2153-9650" : "!325341621!", // Journal of Medieval Religious Cultures
 
 	
 	

@@ -920,6 +920,8 @@ var journalMapping = {
 	"2165-5413" : "!398102627!", // Journal of Africana Religions
 	"2165-5405" : "!398102627!", // Journal of Africana Religions
 	"1552-8030" : "!306834588!", // Journal of Religion, Spirituality & Aging
+	"1947-6566" : "!325341621!", // Journal of Medieval Religious Cultures
+	"2153-9650" : "!325341621!", // Journal of Medieval Religious Cultures
 
 	
 };
@@ -2075,7 +2077,8 @@ var issnPhysicalFormMapping = {
 	"2165-5413" : "O", // Journal of Africana Religions
 	"2165-5405" : "O", // Journal of Africana Religions
 	"1552-8030" : "O", // Journal of Religion, Spirituality & Aging
-
+	"1947-6566" : "O", // Journal of Medieval Religious Cultures
+	"2153-9650" : "O", // Journal of Medieval Religious Cultures
 	
 	
 };
