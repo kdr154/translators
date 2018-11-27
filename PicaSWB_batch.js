@@ -2076,6 +2076,8 @@ var issnPhysicalFormMapping = {
 	"1552-8030" : "O", // Journal of Religion, Spirituality & Aging
 	"1051-3558" : "O", // American Catholic Philosophical Quarterly
 	"10513558" : "O", // American Catholic Philosophical Quarterly
+	"1947-6566" : "O", // Journal of Medieval Religious Cultures
+	"2153-9650" : "O", // Journal of Medieval Religious Cultures
 
 	
 		
