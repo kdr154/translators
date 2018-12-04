@@ -2474,6 +2474,7 @@ var issnSsgMapping = {
 	"2165-5413" : "0", // Journal of Africana Religions
 	"2165-5405" : "0", // Journal of Africana Religions
 	"1552-8030" : "0", // Journal of Religion, Spirituality & Aging
+	"2057-4517" : "0; 1", // The Journal of Religious History, Literature and Culture
 	
 
  
