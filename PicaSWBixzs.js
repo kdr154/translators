@@ -2081,6 +2081,7 @@ var issnPhysicalFormMapping = {
 	"1947-6566" : "O", // Journal of Medieval Religious Cultures
 	"2153-9650" : "O", // Journal of Medieval Religious Cultures
 	"2057-4517" : "O", // The Journal of Religious History, Literature and Culture
+	"Biblica" : "O", // Biblica
 	
 	
 };
@@ -2183,6 +2184,7 @@ var issnLicenceFieldMapping = {
 	"2359-8107" : "l", // Review of Ecumenical Studies Sibiu
 	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
 	"1697-2104" : "l", // Collectanea Christiana orientalia
+	
 
 	
 	
@@ -2538,6 +2540,7 @@ var issnJournalTitleMapping = {
 	"Journal of Septuagint and Cognate Studies" : "!511463820!", // Journal of Septuagint and Cognate Studies
 	"Journal of the Grace Evangelical Society" : "!281228884!", // Journal of the Grace Evangelical Society
 	"Revue Biblique" : "!462777774!", // Revue Biblique
+	"Biblica" : "!281200165!", // Biblica
 	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly
 	
 };
