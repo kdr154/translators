@@ -922,6 +922,7 @@ var journalMapping = {
 	"1552-8030" : "!306834588!", // Journal of Religion, Spirituality & Aging
 	"1947-6566" : "!325341621!", // Journal of Medieval Religious Cultures
 	"2153-9650" : "!325341621!", // Journal of Medieval Religious Cultures
+	"2057-4517" : "!502164646!", // The Journal of Religious History, Literature and Culture
 
 	
 };
@@ -2079,6 +2080,7 @@ var issnPhysicalFormMapping = {
 	"1552-8030" : "O", // Journal of Religion, Spirituality & Aging
 	"1947-6566" : "O", // Journal of Medieval Religious Cultures
 	"2153-9650" : "O", // Journal of Medieval Religious Cultures
+	"2057-4517" : "O", // The Journal of Religious History, Literature and Culture
 	
 	
 };
@@ -2922,10 +2924,10 @@ function doExport() {
         if (item.shortTitle == "journalArticle") {
            titleStatement += ZU.unescapeHTML(item.shortTitle);
             if (item.title && item.title.length > item.shortTitle.length) {
-                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,''));
+                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/:(?!\d)/,''));
             }
         } else {
-            titleStatement += ZU.unescapeHTML(item.title.replace(/\s*:\s*/,'$d'));
+            titleStatement += ZU.unescapeHTML(item.title.replace(/:(?!\d)/,'$d'));
         }
         //Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
         if (item.language == "ger" || !item.language) {
