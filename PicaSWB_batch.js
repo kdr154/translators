@@ -1442,7 +1442,7 @@ var issnPhysicalFormMapping = {
 	"1568-5179" : "A", // Dead Sea discoveries !!eppn
 	"1091-6687" : "A", // Logos : a journal of catholic thought and culture !!pppn
 	"1568-5152" : "A", // Biblical interpretation !!eppn
-	"0003-097X" : "A", // Bulletin of the American Schools of Oriental Research !!pppn
+	"0003-097X" : "O", // Bulletin of the American Schools of Oriental Research !!pppn
 	"0017-8160, 1475-4517" : "O", // The Harvard theological review
 	"0017-8160" : "O", // The Harvard theological review 
 	"1475-4517" : "O", // The Harvard theological review 
