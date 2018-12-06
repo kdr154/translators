@@ -696,7 +696,8 @@ var journalMapping = {
 	"0737-769X" : "!378495917!", // Journal of Chinese Religions
 	"2047704X" : "!39403581X!", // Journal for the Academic Study of Religion
 	"2047-704X" : "!39403581X!", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "!39403581X!", // Journal for the Academic Study of Religion
+	"2047-7058" : "!39403581X!", // Journal for the Academic Study of Religion
+	"2047-704X, 2047-7058" : "!39403581X!", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "!097188832!", // Religion and American Culture 
 	"1533-8568" : "!097188832!", // Religion and American Culture 
 	"1052-1151" : "!097188832!", // Religion and American Culture 
@@ -759,10 +760,6 @@ var journalMapping = {
 	"0006-0887" : "!281200165!", // Biblica
 	"2565-7070" : "!281200165!", // Biblica
 	"0035-1784" : "!41048640X!", // Revue de théologie et de philosophie
-	"2047704X" : "!39403581X!", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "!39403581X!", // Journal for the Academic Study of Religion
-	"1744-9014" : "!39403581X!", // Journal for the Academic Study of Religion
-	"1031-2943" : "!39403581X!", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "!097188832!", // Religion and American Culture
 	"1052-1151" : "!097188832!", // Religion and American Culture
 	"1533-8568" : "!097188832!", // Religion and American Culture
@@ -1675,6 +1672,7 @@ var issnPhysicalFormMapping = {
 	"2011-9771" : "O", // Revista Albertus Magnus
 	"2413-9459" : "O", // Stellenbosch Theological Journal = Stellenbosch Teologiese Joernaal (STJ) 
 	"2509-9957, 2509-9965" : "O", // International journal of Latin American religions
+	"2509-9965" : "O", // International journal of Latin American religions
 	"2176-1078" : "O", // Estudos de religião
 	"1386-2820, 1572-8447" : "O", // Ethical theory and moral practice
 	"1572-8447" : "O", // Ethical theory and moral practice
@@ -1846,7 +1844,8 @@ var issnPhysicalFormMapping = {
 	"0737-769X" : "O", // Journal of Chinese Religions
 	"2047704X" : "O", // Journal for the Academic Study of Religion
 	"2047-704X" : "O", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "O", // Journal for the Academic Study of Religion
+	"2047-7058" : "O", // Journal for the Academic Study of Religion
+	"2047-704X, 2047-7058" : "O", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "O", // Religion and American Culture 
 	"1533-8568" : "O", // Religion and American Culture 
 	"1052-1151" : "O", // Religion and American Culture 
@@ -1901,8 +1900,6 @@ var issnPhysicalFormMapping = {
 	"0006-0887" : "O", // Biblica
 	"2565-7070" : "O", // Biblica
 	"0035-1784" : "O", // Revue de théologie et de philosophie
-	"2047704X" : "O", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "O", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "O", // Religion and American Culture
 	"2297-6469" : "O", // Zeitschrift für Religionskunde
 	"Perspectives in Religious Studies" : "A", //Perspectives in religious studies Print-PPN
@@ -2359,6 +2356,7 @@ var issnSsgMapping = {
 	"2006-5442" : "0", // Journal of religion and human relations
 	"2053-6712" : "0", // Secularism and Nonreligion
 	"2509-9957, 2509-9965" : "0", // International journal of Latin American religions
+	"2509-9965" : "0", // International journal of Latin American religions
 	"0022-4197, 1573-6571" : "0", // Journal of Religion and Health
 	"1573-6571" : "0", // Journal of Religion and Health
 	"0022-4197" : "0", // Journal of Religion and Health
@@ -2407,7 +2405,8 @@ var issnSsgMapping = {
 	"0737-769X" : "0", // Journal of Chinese Religions
 	"2047704X" : "0", // Journal for the Academic Study of Religion
 	"2047-704X" : "0", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
+	"2047-7058" : "0", // Journal for the Academic Study of Religion
+	"2047-704X, 2047-7058" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture 
 	"1533-8568" : "0; 1", // Religion and American Culture 
 	"1052-1151" : "0; 1", // Religion and American Culture 
@@ -2444,8 +2443,6 @@ var issnSsgMapping = {
 	"00244414" : "0", // Listening, Journal of Communication Ethics, Religion, and Culture
 	"2555-5111" : "0; 1", // Journal international de bioéthique et d'éthique des sciences
 	"0035-1784" : "O", // Revue de théologie et de philosophie
-	"2047704X" : "0", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
 	"2297-6469" : "0; 1", // Zeitschrift für Religionskunde
 	"2041-3599, 1871-7691" : "0; 1", // PentecoStudies
