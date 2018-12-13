@@ -914,6 +914,7 @@ var journalMapping = {
 	"1947-6566" : "!325341621!", // Journal of Medieval Religious Cultures
 	"2153-9650" : "!325341621!", // Journal of Medieval Religious Cultures
 	"2057-4517" : "!502164646!", // The Journal of Religious History, Literature and Culture
+	"0362-1596" : "!015198022!", // Parabola
 
 	
 	
@@ -949,6 +950,7 @@ var languageMapping = {
 	"pt-BR" : "por",
 	"es-ES" : "spa",
 	"No" : "nor",
+	"no-NO" : "nor",
 	"Sv" : "swe", 
 	"no" : "nor",
 	"sv" : "swe", 
@@ -1057,7 +1059,6 @@ var issnLangMapping = {
 	"0210-7112" : "spa", // Revista española de teología
 	"00666785" : "ita", // Archivum Historiae Pontificiae
 	"09329951" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
-	"0932-9951" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0932-9951, 2196-808X" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0081-8933" : "ita", // Liber annuus
 	"0025-8911" : "fre", // Mélanges de science religieuse
@@ -2078,6 +2079,7 @@ var issnPhysicalFormMapping = {
 	"2153-9650" : "O", // Journal of Medieval Religious Cultures
 	"2057-4517" : "O", // The Journal of Religious History, Literature and Culture
 	"Biblica" : "O", // Biblica
+	"0362-1596" : "A", // Parabola
 
 	
 		
@@ -2474,6 +2476,7 @@ var issnSsgMapping = {
 	"2165-5405" : "0", // Journal of Africana Religions
 	"1552-8030" : "0", // Journal of Religion, Spirituality & Aging
 	"2057-4517" : "0; 1", // The Journal of Religious History, Literature and Culture
+	"0362-1596" : "0", // Parabola
 	
 
  
