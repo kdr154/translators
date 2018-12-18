@@ -609,6 +609,7 @@ var journalMapping = {
 	"0017-4114" : "!014405377!", // Gregorianum
 	"21509301" : "!365211141!", //  Religion and society
 	"2150-9298, 2150-9301" : "!365211141!", //  Religion and society
+	"2150-9301, 2150-9298" : "!365211141!", //  Religion and society
 	"2150-9298" : "!365211141!", //  Religion and society
 	"2150-9301" : "!365211141!", //  Religion and society
 	"2593-0486" : "!494985240!", // Marriage, Families and Spirituality
@@ -1778,6 +1779,7 @@ var issnPhysicalFormMapping = {
 	"0009-7756" : "A", // Ciudad de Dios
 	"0017-4114" : "A", // Gregorianum
 	"21509301" : "O", //  Religion and society
+	"2150-9301, 2150-9298" : "O", //  Religion and society
 	"2150-9298, 2150-9301" : "O", //  Religion and society
 	"Calvin Theological Journal" : "O", // Calvin Theological Journal
 	"2593-0486" : "O", // Marriage, Families and Spirituality
@@ -1948,7 +1950,7 @@ var issnPhysicalFormMapping = {
 	"1188-7109" : "O", // Théologiques
 	"Ephemerides Theologicae Lovanienses" : "O", // Ephemerides theologicae Lovanienses
 	"Lumen Vitae" : "O", // Lumen Vitae E-PPN
-	"Religion and Society" : "A", // Religion and Society Print-PPN
+	// "Religion and Society" : "A", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "O", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
 	"The Reformed Theological Review" : "O", // The Reformed Theological Review E-PPN
@@ -2378,6 +2380,7 @@ var issnSsgMapping = {
 	"1092-6690, 1541-8480" : "0", // Nova religio
 	"1011-7601" : "0", // Journal for the Study of Religion
 	"21509301" : "0", //  Religion and society
+	"2150-9301, 2150-9298" : "0", //  Religion and society
 	"2150-9298, 2150-9301" : "0", //  Religion and society
 	"2150-9301" : "0", //  Religion and society
 	"2267-7313" : "0; 1", // Histoire, monde et cultures religieuses
@@ -2510,7 +2513,7 @@ var issnJournalTitleMapping = {
 	"Word & World" : "!325341044!", // Word & World E-PPN
 	"Ephemerides Theologicae Lovanienses" : "!112891160!", // Ephemerides theologicae Lovanienses
 	"Lumen Vitae" : "!428280439!", // Lumen Vitae E-PPN
-	"Religion and Society" : "!015198073!", // Religion and Society Print-PPN
+	// "Religion and Society" : "!015198073!", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "!410016403!", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
