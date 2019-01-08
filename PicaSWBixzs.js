@@ -924,6 +924,7 @@ var journalMapping = {
 	"2153-9650" : "!325341621!", // Journal of Medieval Religious Cultures
 	"2057-4517" : "!502164646!", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "!015198022!", // Parabola
+	"1754-517X" : "!281371229!", // Journal for late antique religion and culture
 
 
 	
@@ -2087,6 +2088,7 @@ var issnPhysicalFormMapping = {
 	"2057-4517" : "O", // The Journal of Religious History, Literature and Culture
 	"Biblica" : "O", // Biblica
 	"0362-1596" : "A", // Parabola
+	"1754-517X" : "O", // Journal for late antique religion and culture
 
 	
 	
@@ -2191,6 +2193,7 @@ var issnLicenceFieldMapping = {
 	"2359-8107" : "l", // Review of Ecumenical Studies Sibiu
 	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
 	"1697-2104" : "l", // Collectanea Christiana orientalia
+	"1754-517X" : "l", // Journal for late antique religion and culture
 	
 
 	
@@ -2485,6 +2488,7 @@ var issnSsgMapping = {
 	"1552-8030" : "0", // Journal of Religion, Spirituality & Aging
 	"2057-4517" : "0; 1", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "0", // Parabola
+	"1754-517X" : "1", // Journal for late antique religion and culture
 
 	
 };
