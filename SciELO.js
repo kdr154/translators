@@ -1,15 +1,15 @@
 {
 	"translatorID": "3eabecf9-663a-4774-a3e6-0790d2732eed",
-	"translatorType": 4,
 	"label": "SciELO",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://(www\\.)?(socialscience\\.|proceedings\\.|biodiversidade\\.|caribbean\\.|comciencia\\.|inovacao\\.|search\\.)?(scielo|scielosp)\\.",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 11:53:49"
 }
 
 /*
@@ -74,16 +74,36 @@ function doWeb(doc, url) {
 	}
 }
 
+function postProcess(doc, item) {
+	// the author fields are repeated in the website's embedded metadata
+	// so, the duplicates need to be removed
+	item.creators = item.creators.reduce((unique, o) => {
+		if(!unique.some(obj => obj.firstName === o.firstName && obj.lastName === o.lastName &&
+			obj.creatorType === o.creatorType && obj.fieldMode === o.fieldMode)) {
+		  unique.push(o);
+		}
+		return unique;
+	},[]);
+
+	var abstractParagraphs = ZU.xpath(doc, '//div[@class="abstract"]//p[not(@class="sec")]');
+	if (abstractParagraphs && abstractParagraphs.length > 0) {
+		item.abstractNote = "";
+		for (var paragraph in abstractParagraphs) {
+			var node = abstractParagraphs[paragraph];
+			item.abstractNote += ZU.xpathText(node, ".") + "\n\n";
+		}
+	}
+	item.libraryCatalog = "SciELO"
+}
+
 
 function scrape(doc, url) {
-	var abstract = ZU.xpathText(doc, '//div[@class="abstract"]')
 	var translator = Zotero.loadTranslator('web');
 	//use Embedded Metadata
 	translator.setTranslator("951c027d-74ac-47d4-a107-9c3069ab7b48");
 	translator.setDocument(doc);
 	translator.setHandler('itemDone', function(obj, item) {
-		if(abstract) item.abstractNote = abstract.replace(/^\s*(ABSTRACT|RESUMO|RESUMEN)/, "").replace(/[\n\t]/g, "");
-		item.libraryCatalog = "SciELO"
+		postProcess(doc, item);
 		item.complete();
 	});
 	translator.translate();

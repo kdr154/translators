@@ -820,7 +820,9 @@ var journalMapping = {
 	"0076-5872" : "!273875167!", // Mediaeval studies
 	"1364-436X" : "!263253384!", // International journal of children's spirituality !!pppn
 	"1364436X" : "!263253384!", // International journal of children's spirituality
+	"1363-013X, 2397-1770" : "!273884360!", // Quaker studies
 	"1363-013X" : "!273884360!", // Quaker studies
+	"2397-1770" : "!273884360!", // Quaker studies
 	"0034-429X" : "!358951038!", // Renaissance and Reformation / Renaissance et Réforme
 	"09544194" : "!261040693!", // Science & Christian belief
 	"0954-4194" : "!261040693!", // Science & Christian belief
@@ -1511,6 +1513,7 @@ var issnPhysicalFormMapping = {
 	"13549901" : "O", // Studies in world christianity !!pppn
 	"1354-9901" : "O", // Studies in world christianity !!pppn
 	"1355-8358" : "O", // Theology & sexuality !!pppn
+	"1363-013X, 2397-1770" : "O", // Quaker studies
 	"1363-013X" : "O", // Quaker studies
 	"1363-7320" : "A", // Ecotheology !!pppn
 	"1749-4907" : "O", // Journal for the study of religion, nature and culture 
@@ -1789,7 +1792,7 @@ var issnPhysicalFormMapping = {
 	"00105236" : "A", // Concilium - Englische Ausgabe !!!!
 	"0010-5236" : "A", // Concilium - Englische Ausgabe !!!!
 	"00180645" : "A", // Herder Korrespondenz
-	"0014-1437" : "A", // Estudios Biblicos
+	"0014-1437" : "O", // Estudios Biblicos
 	"1689-8311" : "O", // European Journal for Philosophy of Religion
 	"1025-6555, 1814-2036" : "O", // Mitteilungen zur Christlichen Archäologie
 	"2565-7348" : "O", // Tijdschrift voor Theologie
@@ -2167,6 +2170,7 @@ var issnLicenceFieldMapping = {
 	"2364-382X" : "l", // Gamevironments
 	"0039-6761" : "l", // Svensk teologisk kvartalskrift
 	"1530-5228" : "l", // Journal for Cultural and Religious Theory
+	"1363-013X, 2397-1770" : "l", // Quaker studies
 	"1363-013X" : "l", // Quaker studies
 	"2074-7705" : "l", // Verbum et ecclesia
 	"1609-9982" : "l", // Verbum et ecclesia
