@@ -2087,6 +2087,7 @@ var issnPhysicalFormMapping = {
 	"Biblica" : "O", // Biblica
 	"0362-1596" : "A", // Parabola
 	"1754-517X" : "O", // Journal for late antique religion and culture
+	"Religions" : "O", // Religions
 
 	
 		
@@ -2193,6 +2194,7 @@ var issnLicenceFieldMapping = {
 	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
 	"1697-2104" : "l", // Collectanea Christiana orientalia
 	"1754-517X" : "l", // Journal for late antique religion and culture
+	"Religions" : "l", // Religions
 	
 	
 	
@@ -2488,6 +2490,7 @@ var issnSsgMapping = {
 	"2057-4517" : "0; 1", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "0", // Parabola
 	"1754-517X" : "1", // Journal for late antique religion and culture
+	"Religions" : "0", // Religions
 	
 
  
@@ -2558,6 +2561,7 @@ var issnJournalTitleMapping = {
 	"Revue Biblique" : "!462777774!", // Revue Biblique
 	"Biblica" : "!281200165!", // Biblica
 	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly - dann aktivieren, wenn Zuordnung über ISSN nicht verwendet wird. Beide Einträge aktiv führt zu einem Fehler
+	"Religions" : "!348219067!", // Religions
  
 
 };
@@ -2945,10 +2949,10 @@ function doExport() {
         if (item.shortTitle == "journalArticle") {
            titleStatement += ZU.unescapeHTML(item.shortTitle);
             if (item.title && item.title.length > item.shortTitle.length) {
-                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/:(?!\d)/,''));
+                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/:(?!\d)\s*/,''));
             }
         } else {
-            titleStatement += ZU.unescapeHTML(item.title.replace(/:(?!\d)/,'$d'));
+            titleStatement += ZU.unescapeHTML(item.title.replace(/:(?!\d)\s*/,'$d'));
         }
 
         //Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
