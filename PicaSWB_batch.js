@@ -919,6 +919,8 @@ var journalMapping = {
 	"2057-4517" : "!502164646!", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "!015198022!", // Parabola
 	"1754-517X" : "!281371229!", // Journal for late antique religion and culture
+	"08900132" : "!456301429!", // Journal of interdisciplinary studies
+	"0890-0132" : "!456301429!", // Journal of interdisciplinary studies
 
 	
 	
@@ -2088,6 +2090,8 @@ var issnPhysicalFormMapping = {
 	"0362-1596" : "A", // Parabola
 	"1754-517X" : "O", // Journal for late antique religion and culture
 	"Religions" : "O", // Religions
+	"08900132" : "O", // Journal of interdisciplinary studies
+	"0890-0132" : "O", // Journal of interdisciplinary studies
 
 	
 		
@@ -2491,6 +2495,8 @@ var issnSsgMapping = {
 	"0362-1596" : "0", // Parabola
 	"1754-517X" : "1", // Journal for late antique religion and culture
 	"Religions" : "0", // Religions
+	"08900132" : "0", // Journal of interdisciplinary studies
+	"0890-0132" : "0", // Journal of interdisciplinary studies
 	
 
  

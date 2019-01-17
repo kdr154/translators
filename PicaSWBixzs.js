@@ -925,6 +925,9 @@ var journalMapping = {
 	"2057-4517" : "!502164646!", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "!015198022!", // Parabola
 	"1754-517X" : "!281371229!", // Journal for late antique religion and culture
+	"08900132" : "!456301429!", // Journal of interdisciplinary studies
+	"0890-0132" : "!456301429!", // Journal of interdisciplinary studies
+
 
 
 	
@@ -2089,6 +2092,9 @@ var issnPhysicalFormMapping = {
 	"Biblica" : "O", // Biblica
 	"0362-1596" : "A", // Parabola
 	"1754-517X" : "O", // Journal for late antique religion and culture
+	"Religions" : "O", // Religions
+	"08900132" : "O", // Journal of interdisciplinary studies
+	"0890-0132" : "O", // Journal of interdisciplinary studies
 
 	
 	
@@ -2194,6 +2200,7 @@ var issnLicenceFieldMapping = {
 	"2521-179X" : "kw", // Theological Reflections: Euro-Asian Journal of Theology
 	"1697-2104" : "l", // Collectanea Christiana orientalia
 	"1754-517X" : "l", // Journal for late antique religion and culture
+	"Religions" : "l", // Religions
 	
 
 	
@@ -2489,6 +2496,9 @@ var issnSsgMapping = {
 	"2057-4517" : "0; 1", // The Journal of Religious History, Literature and Culture
 	"0362-1596" : "0", // Parabola
 	"1754-517X" : "1", // Journal for late antique religion and culture
+	"Religions" : "0", // Religions
+	"08900132" : "0", // Journal of interdisciplinary studies
+	"0890-0132" : "0", // Journal of interdisciplinary studies
 
 	
 };
@@ -2555,6 +2565,7 @@ var issnJournalTitleMapping = {
 	"Revue Biblique" : "!462777774!", // Revue Biblique
 	"Biblica" : "!281200165!", // Biblica
 	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly
+	"Religions" : "!348219067!", // Religions
 	
 };
 

@@ -1,15 +1,15 @@
 {
 	"translatorID": "99b62ba4-065c-4e83-a5c0-d8cc0c75d388",
-	"translatorType": 4,
 	"label": "Open Journal Systems",
 	"creator": "Aurimas Vinckevicius",
 	"target": "/article/view/",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-10-12 22:30:00"
+	"lastUpdated": "2018-10-12 17:46:47"
 }
 
 function detectWeb(doc, url) {
@@ -41,11 +41,11 @@ function scrape(doc, url) {
 		if (!item.itemType) {
 			item.itemType = "journalArticle";
 		}
-		
+
 		if (!item.title) {
 			item.title = doc.getElementById('articleTitle');
 		}
-		
+
 		if (item.creators.length==0) {
 			var authorString = doc.getElementById("authorString");
 			if (authorString) {
@@ -53,15 +53,14 @@ function scrape(doc, url) {
 				for (var i=0; i<authorsList.length; i++) {
 					item.creators.push(ZU.cleanAuthor(authorsList[i], "author"));
 				}
-		
 			}
 		}
-		
+
 		var doiNode = doc.getElementById('pub-id::doi');
 		if (!item.DOI && doiNode) {
 			item.DOI = doiNode.textContent;
 		}
-		
+
 		//abstract is supplied in DC:description, so it ends up in extra
 		//abstractNote is pulled from description, which is same as title
 		item.abstractNote = item.extra;
@@ -71,9 +70,9 @@ function scrape(doc, url) {
 		if (!item.abstractNote) {
 			item.abstractNote = ZU.xpathText(doc, '//div[@id="articleAbstract"]/div[1]');
 		}
-		
+
 		var pdfAttachment = false;
-		
+
 		//some journals link to a PDF view page in the header, not the PDF itself
 		for (var i=0; i<item.attachments.length; i++) {
 			if (item.attachments[i].mimeType == 'application/pdf') {
@@ -81,15 +80,23 @@ function scrape(doc, url) {
 				item.attachments[i].url = item.attachments[i].url.replace(/\/article\/view\//, '/article/download/');
 			}
 		}
-		
+
 		var pdfUrl = doc.querySelector("a.obj_galley_link.pdf");
 		//add linked PDF if there isn't one listed in the header
-		if (!pdfAttachment && pdfUrl) { 
+		if (!pdfAttachment && pdfUrl) {
 			item.attachments.push({
 				title: "Full Text PDF",
 				mimeType: "application/pdf",
 				url: pdfUrl.href.replace(/\/article\/view\//, '/article/download/')
 			});
+		}
+
+		// remove superfluous last page number
+		if (item.pages) {
+			var matches = item.pages.match(/^([0-9]+)-([0-9]+)-([0-9]+)$/);
+			// only update if the last two captures are the same, otherwise it's ambiguous
+			if (matches && matches[2] === matches[3])
+				item.pages = matches[1] + "-" + matches[2];
 		}
 
 		item.complete();
