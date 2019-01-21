@@ -927,6 +927,8 @@ var journalMapping = {
 	"1754-517X" : "!281371229!", // Journal for late antique religion and culture
 	"08900132" : "!456301429!", // Journal of interdisciplinary studies
 	"0890-0132" : "!456301429!", // Journal of interdisciplinary studies
+	"0146-1079" : "!302404708!", // Biblical Theology Bulletin
+	"2199-4625" : "!425059901!", // Journal of Religious Education
 
 
 
@@ -2095,6 +2097,9 @@ var issnPhysicalFormMapping = {
 	"Religions" : "O", // Religions
 	"08900132" : "O", // Journal of interdisciplinary studies
 	"0890-0132" : "O", // Journal of interdisciplinary studies
+	"0146-1079" : "O", // Biblical Theology Bulletin
+	"2199-4625" : "O", // Journal of Religious Education
+
 
 	
 	
