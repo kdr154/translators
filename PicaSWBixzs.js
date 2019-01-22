@@ -931,7 +931,17 @@ var journalMapping = {
 	"2199-4625" : "!425059901!", // Journal of Religious Education
 	"1872-0226" : "!277255872!", // Contemporary Islam
 	"2196-8802" : "!403781787!", // International Journal of Dharma Studies
-
+	"1573-0395" : "!109967240!", // Journal of Indian Philosophy
+	"1874-6349" : "!284040223!", // Acta Analytica
+	"1572-8609" : "!104194170!", // The Journal of Ethics
+	"1468-2265" : "!094425485!", // The Heythrop journal
+	"1741-2005" : "!258584254!", // New Blackfriars
+	"1552-146X" : "!258761822!", // Hastings Center Report
+	"1466-769X" : "!093981309!", // Nursing philosophy
+	"1478-1913" : "!105797065!", // The Muslim World
+	"1478-0542" : "!306833107!", // History Compass
+	"0341-7905" : "!469458356!", // Erwachsenenbildung
+	"0209-0864" : "!015190536!", // Analecta Cracoviensia
 
 
 	
@@ -1423,7 +1433,7 @@ var issnPhysicalFormMapping = {
 	"1572-8447" : "A", // Ethical theory and moral practice !!eppn
 	"1187-7863" : "A", // Journal of agricultural and environmental ethics !!pppn
 	"1573-322X" : "A", // Journal of agricultural and environmental ethics !!eppn
-	"1468-2265" : "A", // Heythrop journal !!eppn
+	"1468-2265" : "O", // The Heythrop journal !!eppn
 	"1468-0025" : "O", // Modern theology !!eppn
 	"0031-2789" : "O", // Pastoral psychology !!pppn
 	"1573-6679" : "O", // Pastoral psychology !!eppn
@@ -1444,7 +1454,7 @@ var issnPhysicalFormMapping = {
 	"1468-2400" : "O", // International journal of systematic theology !!eppn
 	"1463-1652" : "O", // International journal of systematic theology !!pppn
 	"14631652" : "O", // International journal of systematic theology !!pppn
-	"1466-769X" : "A", // Nursing philosophy !!eppn
+	"1466-769X" : "O", // Nursing philosophy !!eppn
 	"2473-3725" : "O", // The Thomist !!eppn
 	"0969-7330" : "A", // Nursing ethics !!pppn
 	"1477-0989" : "A", // Nursing ethics !!eppn
@@ -1496,7 +1506,7 @@ var issnPhysicalFormMapping = {
 	"1570-0720" : "A", // Vigiliae Christianae !!eppn
 	"1570-0631" : "A", // Journal for the study of Judaism !!eppn
 	"00916471" : "O",  // Journal of psychology and theology !ohne Bindestrich im Zoterofeld
-	"1552-146X" : "A", // The Hastings Center report !!eppn
+	"1552-146X" : "O", // The Hastings Center report !!eppn
 	"0098-9444" : "A", // Biblical archaeology review !!pppn
 	"0098-9444" : "A", // Biblical archaeology review !!eppn
 	"2161-007X" : "A", // Counseling and values !!eppn
@@ -2103,6 +2113,15 @@ var issnPhysicalFormMapping = {
 	"2199-4625" : "O", // Journal of Religious Education
 	"1872-0226" : "O", // Contemporary Islam
 	"2196-8802" : "O", // International Journal of Dharma Studies
+	"1573-0395" : "O", // Journal of Indian Philosophy
+	"1874-6349" : "O", // Acta Analytica
+	"1572-8609" : "O", // The Journal of Ethics
+	"1741-2005" : "O", // New Blackfriars
+	"1478-1913" : "O", // The Muslim World
+	"1478-0542" : "O", // History Compass
+	"0341-7905" : "O", // Erwachsenenbildung
+	"0209-0864" : "A", // Analecta Cracoviensia
+
 
 
 	
@@ -2314,7 +2333,7 @@ var issnSsgMapping = {
 	"1572-8366" : "0; 1", // Agriculture and human values !!eppn
 	"1187-7863" : "0; 1", // Journal of agricultural and environmental ethics !!pppn
 	"1573-322X" : "0; 1", // Journal of agricultural and environmental ethics !!eppn
-	"1468-2265" : "0; 1", // Heythrop journal !!eppn
+	"1468-2265" : "0; 1", // The Heythrop journal !!eppn
 	"1364-436X" : "0; 1", // International journal of children's spirituality !!pppn
 	"1364436X" : "0; 1", // International journal of children's spirituality
 	"0959-6410" : "0; 1", // Islam and Christian-Muslim relations !!pppn
@@ -2511,6 +2530,7 @@ var issnSsgMapping = {
 	"0890-0132" : "0", // Journal of interdisciplinary studies
 	"1872-0226" : "0", // Contemporary Islam
 	"2196-8802" : "0", // International Journal of Dharma Studies
+	"1573-0395" : "0", // Journal of Indian Philosophy
 
 	
 };
