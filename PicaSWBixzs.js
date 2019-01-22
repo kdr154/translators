@@ -519,8 +519,8 @@ var journalMapping = {
 	"0080-5459" : "!307016250!", // Franciscan Studies
 	"0018-215X" : "!281366985!", // Hispania Sacra
 	"2267-7313" : "!398332924!", // Histoire, monde et cultures religieuses
-	"0360-9669, 2050-8557" : "!014815435!", // Horizons
-	"0360-9669" : "!014815435!", // Horizons
+	"0360-9669, 2050-8557" : "!31881420X!", // Horizons
+	"0360-9669" : "!31881420X!", // Horizons
 	"1740-3553, 1745-5278" : "!256620571!", // Journal of Anglican Studies
 	"1740-3553" : "!256620571!", // Journal of Anglican Studies
 	"1745-5278" : "!256620571!", // Journal of Anglican Studies
@@ -942,6 +942,10 @@ var journalMapping = {
 	"1478-0542" : "!306833107!", // History Compass
 	"0341-7905" : "!469458356!", // Erwachsenenbildung
 	"0209-0864" : "!015190536!", // Analecta Cracoviensia
+	"0963-1801, 1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+
 
 
 	
@@ -1723,7 +1727,7 @@ var issnPhysicalFormMapping = {
 	"0080-5459" : "O", // Franciscan Studies
 	"0018-215X" : "O", // Hispania Sacra
 	"2267-7313" : "A", // Histoire, monde et cultures religieuses
-	"0360-9669, 2050-8557" : "A", // Horizons
+	"0360-9669, 2050-8557" : "O", // Horizons
 	"1740-3553, 1745-5278" : "O", // Journal of Anglican Studies
 	"1467-9809" : "O", // Journal of religious history
 	"0210-2900" : "A", // Mayéutica
@@ -2121,6 +2125,10 @@ var issnPhysicalFormMapping = {
 	"1478-0542" : "O", // History Compass
 	"0341-7905" : "O", // Erwachsenenbildung
 	"0209-0864" : "A", // Analecta Cracoviensia
+	"0963-1801, 1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801", "O", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
+
 
 
 
