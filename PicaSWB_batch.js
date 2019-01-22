@@ -923,6 +923,8 @@ var journalMapping = {
 	"0890-0132" : "!456301429!", // Journal of interdisciplinary studies
 	"0146-1079" : "!302404708!", // Biblical Theology Bulletin
 	"2199-4625" : "!425059901!", // Journal of Religious Education
+	"1872-0226" : "!277255872!", // Contemporary Islam
+	"2196-8802" : "!403781787!", // International Journal of Dharma Studies
 
 	
 	
@@ -2096,6 +2098,8 @@ var issnPhysicalFormMapping = {
 	"0890-0132" : "O", // Journal of interdisciplinary studies
 	"0146-1079" : "O", // Biblical Theology Bulletin
 	"2199-4625" : "O", // Journal of Religious Education
+	"1872-0226" : "O", // Contemporary Islam
+	"2196-8802" : "O", // International Journal of Dharma Studies
 
 	
 		
@@ -2203,6 +2207,7 @@ var issnLicenceFieldMapping = {
 	"1697-2104" : "l", // Collectanea Christiana orientalia
 	"1754-517X" : "l", // Journal for late antique religion and culture
 	"Religions" : "l", // Religions
+	"2196-8802" : "l", // International Journal of Dharma Studies
 	
 	
 	
@@ -2501,6 +2506,9 @@ var issnSsgMapping = {
 	"Religions" : "0", // Religions
 	"08900132" : "0", // Journal of interdisciplinary studies
 	"0890-0132" : "0", // Journal of interdisciplinary studies
+	"1872-0226" : "0", // Contemporary Islam
+	"2196-8802" : "0", // International Journal of Dharma Studies
+	
 	
 
  
