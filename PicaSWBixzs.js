@@ -252,7 +252,8 @@ var journalMapping = {
 	"0018-246X" : "!078589886!", // The historical journal
 	"1469-2147" : "!081985010!", // Cambridge quarterly of healthcare ethics
 	"0963-1801" : "!081985010!", // Cambridge quarterly of healthcare ethics
-	"1380-3603" : "!094085587!", // Christian bioethics 
+	"1380-3603, 1744-4195" : "!094085587!", // Christian bioethics 
+	"1380-3603" : "!094085587!", // Christian bioethics 	
 	"1744-4195" : "!094085587!", // Christian bioethics 
 	"0569-9789" : "!015211657!", // Analecta calasanctiana
 	"0210-0460" : "!015036707!", // Anales valentinos
@@ -942,9 +943,12 @@ var journalMapping = {
 	"1478-0542" : "!306833107!", // History Compass
 	"0341-7905" : "!469458356!", // Erwachsenenbildung
 	"0209-0864" : "!015190536!", // Analecta Cracoviensia
-	"0963-1801, 1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
-	"0963-1801", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
-	"1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801, 1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"1052-150X, 2153-3326" : "!273911066!", // Business ethics quarterly 
+	"1052-150X" : "!273911066!", // Business ethics quarterly 
+	"2153-3326" : "!273911066!", // Business ethics quarterly 
 
 
 
@@ -1371,6 +1375,7 @@ var issnPhysicalFormMapping = {
 	"0018-246X" : "O", // The historical journal
 	"1469-2147" : "O", // Cambridge quarterly of healthcare ethics
 	"0963-1801" : "O", // Cambridge quarterly of healthcare ethics
+	"1380-3603, 1744-4195" : "O", // Christian bioethics 
 	"1380-3603" : "O", // Christian bioethics
 	"1744-4195" : "O", // Christian bioethics
 	"0569-9789" : "A", // Analecta calasanctiana
@@ -1529,8 +1534,9 @@ var issnPhysicalFormMapping = {
 	"1745-5286" : "O", // Journal for the study of the pseudepigrapha !!eppn
 	"1745-5251" : "A", // Journal of pentecostal theology !!pppn - in Z. 140 mit ppn gemappt: diese Z. löschen?
 	"1574-3012" : "A", // Religion & theology !!eppn
-	"1052-150X" : "A", // Business ethics quarterly !!pppn
-	"2153-3326" : "A", // Business ethics quarterly !!eppn
+	"1052-150X, 2153-3326" : "O", // Business ethics quarterly 
+	"1052-150X" : "O", // Business ethics quarterly 
+	"2153-3326" : "O", // Business ethics quarterly 
 	"10942076, 23255404" : "O", // Near Eastern archaeology !!pppn
 	"13549901" : "O", // Studies in world christianity !!pppn
 	"1354-9901" : "O", // Studies in world christianity !!pppn
@@ -2125,9 +2131,9 @@ var issnPhysicalFormMapping = {
 	"1478-0542" : "O", // History Compass
 	"0341-7905" : "O", // Erwachsenenbildung
 	"0209-0864" : "A", // Analecta Cracoviensia
-	"0963-1801, 1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
-	"0963-1801", "O", // Cambridge Quarterly of Healthcare Ethics
-	"1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801, 1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
 
 
 

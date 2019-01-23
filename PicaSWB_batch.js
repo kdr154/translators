@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 2,
 	"browserSupport": "gcs",
-	"lastUpdated": "2018-08-21 00:00:00"
+	"lastUpdated": "2018-07-16 00:00:00"
 }
 
 
@@ -32,6 +32,10 @@
 	along with Zotero. If not, see <http://www.gnu.org/licenses/>.
 	***** END LICENSE BLOCK *****
 */
+
+
+
+
 
 var journalMapping = {
 	"0021-9231" : "!121739872!", // Journal of Biblical Literature 
@@ -244,6 +248,7 @@ var journalMapping = {
 	"0018-246X" : "!078589886!", // The historical journal
 	"1469-2147" : "!081985010!", // Cambridge quarterly of healthcare ethics
 	"0963-1801" : "!081985010!", // Cambridge quarterly of healthcare ethics
+	"1380-3603, 1744-4195" : "!094085587!", // Christian bioethics 
 	"1380-3603" : "!094085587!", // Christian bioethics 
 	"1744-4195" : "!094085587!", // Christian bioethics 
 	"0569-9789" : "!015211657!", // Analecta calasanctiana
@@ -936,9 +941,9 @@ var journalMapping = {
 	"1478-0542" : "!306833107!", // History Compass
 	"0341-7905" : "!469458356!", // Erwachsenenbildung
 	"0209-0864" : "!015190536!", // Analecta Cracoviensia
-	"0963-1801, 1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
-	"0963-1801", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
-	"1469-2147", "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801, 1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
 
 	
 	
@@ -2122,9 +2127,12 @@ var issnPhysicalFormMapping = {
 	"1478-0542" : "O", // History Compass
 	"0341-7905" : "O", // Erwachsenenbildung
 	"0209-0864" : "A", // Analecta Cracoviensia
-	"0963-1801, 1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
-	"0963-1801", "O", // Cambridge Quarterly of Healthcare Ethics
-	"1469-2147", "O", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801, 1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"0963-1801" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"1380-3603, 1744-4195" : "O", // Christian bioethics 
+	"1380-3603" : "O", // Christian bioethics
+	"1744-4195" : "O", // Christian bioethics
 
 
 
@@ -2762,6 +2770,9 @@ var notes_to_ixtheo_notation = {
 "zf" : "!372053718!",
 }
 
+
+
+
 // ab hier Programmcode
 var defaultSsgNummer = "1";
 var defaultLanguage = "eng";
@@ -2957,11 +2968,7 @@ function doExport() {
             addLine(currentItemId, "\\n1140", "uwre");
         }
 
-		// 1140 text nur bei Online-Aufsätzen (Satztyp O), aber fakultativ
-		if (physicalForm === "O") {
-			addLine(currentItemId, "\\n1140", "text");
-		}
-		
+
         //item.language --> 1500 Sprachcodes
         if (item.language) {
             if (languageMapping[(item.language)]) {
@@ -2995,12 +3002,11 @@ function doExport() {
         if (item.shortTitle == "journalArticle") {
            titleStatement += ZU.unescapeHTML(item.shortTitle);
             if (item.title && item.title.length > item.shortTitle.length) {
-                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/:(?!\d)\s*/,''));
+                titleStatement += "$d" + ZU.unescapeHTML(item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,''));
             }
         } else {
-            titleStatement += ZU.unescapeHTML(item.title.replace(/:(?!\d)\s*/,'$d'));
+            titleStatement += ZU.unescapeHTML(item.title.replace(/\s*:\s*/,'$d'));
         }
-
         //Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
         if (item.language == "ger" || !item.language) {
             titleStatement = titleStatement.replace(/^(Der|Die|Das|Des|Dem|Den|Ein|Eines|Einem|Eine|Einen|Einer) ([^@])/, "$1 @$2");
