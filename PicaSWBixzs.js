@@ -942,13 +942,28 @@ var journalMapping = {
 	"1478-1913" : "!105797065!", // The Muslim World
 	"1478-0542" : "!306833107!", // History Compass
 	"0341-7905" : "!469458356!", // Erwachsenenbildung
-	"0209-0864" : "!015190536!", // Analecta Cracoviensia
+	"0209-0864" : "!402985486!", // Analecta Cracoviensia
+	"2391-6842" : "!402985486!", // Analecta Cracoviensia
 	"0963-1801, 1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
 	"0963-1801" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
 	"1469-2147" : "!081985010!", // Cambridge Quarterly of Healthcare Ethics
 	"1052-150X, 2153-3326" : "!273911066!", // Business ethics quarterly 
 	"1052-150X" : "!273911066!", // Business ethics quarterly 
 	"2153-3326" : "!273911066!", // Business ethics quarterly 
+	"0269-1205, 1477-4623" : "!098474626!", // Literature and Theology
+	"0269-1205" : "!098474626!", // Literature and Theology
+	"1477-4623" : "!098474626!", // Literature and Theology
+	"0955-2340, 1471-6917" : "!094507589!", // Journal of Islamic Studies
+	"1471-6917" : "!094507589!", // Journal of Islamic Studies
+	"0955-2340" : "!094507589!", // Journal of Islamic Studies
+	"0276-1114, 1086-3273" : "!104344733!", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"0276-1114" : "!104344733!", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1086-3273" : "!104344733!", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1756-4255, 1756-4263" : "!303226218!", // The Journal of Hindu Studies
+	"1756-4255" : "!303226218!", // The Journal of Hindu Studies
+	"1756-4263" : "!303226218!", // The Journal of Hindu Studies
+	"0022-2968" : "!103115714!", // Journal of Near Eastern Studies
+	"2213-056X" : "!09987914X!", // LIBER Quarterly
 
 
 
@@ -991,6 +1006,7 @@ var languageMapping = {
 	"sv" : "swe", 
 	"nld" : "dut",
 	"af" : "afr",
+	"pl" : "pol",
 	
 	
 };
@@ -2130,10 +2146,25 @@ var issnPhysicalFormMapping = {
 	"1478-1913" : "O", // The Muslim World
 	"1478-0542" : "O", // History Compass
 	"0341-7905" : "O", // Erwachsenenbildung
-	"0209-0864" : "A", // Analecta Cracoviensia
+	"0209-0864" : "O", // Analecta Cracoviensia
+	"2391-6842" : "O", // Analecta Cracoviensia
 	"0963-1801, 1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
 	"0963-1801" : "O", // Cambridge Quarterly of Healthcare Ethics
 	"1469-2147" : "O", // Cambridge Quarterly of Healthcare Ethics
+	"0269-1205, 1477-4623" : "O", // Literature and Theology
+	"0269-1205" : "O", // Literature and Theology
+	"1477-4623" : "O", // Literature and Theology
+	"0955-2340, 1471-6917" : "O", // Journal of Islamic Studies
+	"1471-6917" : "O", // Journal of Islamic Studies
+	"0955-2340" : "O", // Journal of Islamic Studies
+	"0276-1114, 1086-3273" : "O", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"0276-1114" : "O", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1086-3273" : "O", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1756-4255, 1756-4263" : "O", // The Journal of Hindu Studies
+	"1756-4255" : "O", // The Journal of Hindu Studies
+	"1756-4263" : "O", // The Journal of Hindu Studies
+	"0022-2968" : "O", // Journal of Near Eastern Studies
+	"2213-056X" : "O", // LIBER Quarterly
 
 
 
@@ -2244,6 +2275,7 @@ var issnLicenceFieldMapping = {
 	"1754-517X" : "l", // Journal for late antique religion and culture
 	"Religions" : "l", // Religions
 	"2196-8802" : "l", // International Journal of Dharma Studies
+	"2213-056X" : "l", // LIBER Quarterly
 	
 
 	
@@ -2545,6 +2577,15 @@ var issnSsgMapping = {
 	"1872-0226" : "0", // Contemporary Islam
 	"2196-8802" : "0", // International Journal of Dharma Studies
 	"1573-0395" : "0", // Journal of Indian Philosophy
+	"0955-2340, 1471-6917" : "0", // Journal of Islamic Studies
+	"1471-6917" : "0", // Journal of Islamic Studies
+	"0955-2340" : "0", // Journal of Islamic Studies
+	"0276-1114, 1086-3273" : "0", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"0276-1114" : "0", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1086-3273" : "0", // Modern Judaism - A Journal of Jewish Ideas and Experience
+	"1756-4255, 1756-4263" : "0", // The Journal of Hindu Studies
+	"1756-4255" : "0", // The Journal of Hindu Studies
+	"1756-4263" : "0", // The Journal of Hindu Studies
 
 	
 };
