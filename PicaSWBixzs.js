@@ -621,7 +621,7 @@ var journalMapping = {
 	"0010-5236" : "!015241661!", // Concilium - Englische Ausgabe !!!!
 	"0018-0645" : "!014406144!", // Herder Korrespondenz
 	"00180645" : "!014406144!", // Herder Korrespondenz
-	"0014-1437" : "!015178757!", // Estudios Biblicos
+	"0014-1437" : "!506899942!", // Estudios Biblicos
 	"1689-8311" : "!477533728!", // European Journal for Philosophy of Religion
 	"0024-5100" : "!014407558!", // Liturgisches Jahrbuch 
 	"1025-6555, 1814-2036" : "!254675816!", // Mitteilungen zur Christlichen Archäologie
@@ -964,6 +964,10 @@ var journalMapping = {
 	"1756-4263" : "!303226218!", // The Journal of Hindu Studies
 	"0022-2968" : "!103115714!", // Journal of Near Eastern Studies
 	"2213-056X" : "!09987914X!", // LIBER Quarterly
+	"0003-9160, 2589-045x" : "!496386255!", // Archiv für katholisches Kirchenrecht
+	"2589-045x" : "!496386255!", // Archiv für katholisches Kirchenrecht
+	"0003-9160" : "!496386255!", // Archiv für katholisches Kirchenrecht
+	"1556-3537" : "!276272692!", // Anthropology of Consciousness
 
 
 
@@ -2165,6 +2169,10 @@ var issnPhysicalFormMapping = {
 	"1756-4263" : "O", // The Journal of Hindu Studies
 	"0022-2968" : "O", // Journal of Near Eastern Studies
 	"2213-056X" : "O", // LIBER Quarterly
+	"0003-9160, 2589-045x" : "O", // Archiv für katholisches Kirchenrecht
+	"2589-045x" : "O", // Archiv für katholisches Kirchenrecht
+	"0003-9160" : "O", // Archiv für katholisches Kirchenrecht
+	"1556-3537" : "O", // Anthropology of Consciousness
 
 
 
@@ -2586,6 +2594,7 @@ var issnSsgMapping = {
 	"1756-4255, 1756-4263" : "0", // The Journal of Hindu Studies
 	"1756-4255" : "0", // The Journal of Hindu Studies
 	"1756-4263" : "0", // The Journal of Hindu Studies
+	"1556-3537" : "0", // Anthropology of Consciousness
 
 	
 };
@@ -2653,6 +2662,7 @@ var issnJournalTitleMapping = {
 	"Biblica" : "!281200165!", // Biblica
 	// "Jewish Studies Quarterly" : "!307015734!", // Jewish Studies Quarterly
 	"Religions" : "!348219067!", // Religions
+	"Studies in Interreligious Dialogue" : "!112891241!", // Studies in Interreligious Dialogue
 	
 };
 
