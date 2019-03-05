@@ -89,9 +89,8 @@ var journalMapping = {
 	"0043-2040" : "!277054451!", // Wege zum Menschen
 	"0021-1400" : "!265831903!", // Irish theological quaterly
 	"0023-0707" : "!276818741!", // Kerygma und Dogma
-	"1138-4972" : "!281290717!", // 'Ílu
+	"1988-3269" : "!281290717!", // 'Ílu
 	"1135-4712" : "!281290717!", // 'Ílu
-	"1139-1529" : "!281290717!", // 'Ílu
 	"0953-9468" : "!11946067X!", // Studies in Christian ethics
 	"1745-5235" : "!11946067X!", // Studies in Christian ethics
 	"09539468" : "!11946067X!", // Studies in Christian ethics
@@ -519,6 +518,7 @@ var journalMapping = {
 	"1945-9718" : "!307016250!", // Franciscan Studies
 	"0080-5459" : "!307016250!", // Franciscan Studies
 	"0018-215X" : "!281366985!", // Hispania Sacra
+	"1988-4265" : "!281366985!", // Hispania Sacra
 	"2267-7313" : "!398332924!", // Histoire, monde et cultures religieuses
 	"0360-9669, 2050-8557" : "!31881420X!", // Horizons
 	"0360-9669" : "!31881420X!", // Horizons
@@ -968,6 +968,9 @@ var journalMapping = {
 	"2589-045x" : "!496386255!", // Archiv für katholisches Kirchenrecht
 	"0003-9160" : "!496386255!", // Archiv für katholisches Kirchenrecht
 	"1556-3537" : "!276272692!", // Anthropology of Consciousness
+	"0021325X" : "!261325612!", // Ius canonicum
+	"0021-325X" : "!261325612!", // Ius canonicum
+	"2254-6219" : "!261325612!", // Ius canonicum
 
 
 
@@ -1172,6 +1175,7 @@ var issnLangMapping = {
 	"0717-4675" : "spa", // Veritas : Revista de Filosofía y Teología
 	"0718-9273" : "spa", // Veritas : Revista de Filosofía y Teología
 	"1135-4712" : "spa", // 'Ílu
+	"1988-3269" : "spa", // 'Ílu
 	"0340-6083" : "ger", // Göttinger Predigtmeditationen
 	"00180645" : "ger", // Herder Korrespondenz
 	"0018-0645" : "ger", // Herder Korrespondenz
@@ -1752,6 +1756,7 @@ var issnPhysicalFormMapping = {
 	"1945-9718" : "O", // Franciscan Studies
 	"0080-5459" : "O", // Franciscan Studies
 	"0018-215X" : "O", // Hispania Sacra
+	"1988-4265" : "O", // Hispania Sacra
 	"2267-7313" : "A", // Histoire, monde et cultures religieuses
 	"0360-9669, 2050-8557" : "O", // Horizons
 	"1740-3553, 1745-5278" : "O", // Journal of Anglican Studies
@@ -2173,6 +2178,12 @@ var issnPhysicalFormMapping = {
 	"2589-045x" : "O", // Archiv für katholisches Kirchenrecht
 	"0003-9160" : "O", // Archiv für katholisches Kirchenrecht
 	"1556-3537" : "O", // Anthropology of Consciousness
+	"1988-3269" : "O", // 'Ílu
+	"1135-4712" : "O", // 'Ílu
+	"0021325X" : "O", // Ius canonicum
+	"0021-325X" : "O", // Ius canonicum
+	"2254-6219" : "O", // Ius canonicum
+	
 
 
 
@@ -2284,6 +2295,10 @@ var issnLicenceFieldMapping = {
 	"Religions" : "l", // Religions
 	"2196-8802" : "l", // International Journal of Dharma Studies
 	"2213-056X" : "l", // LIBER Quarterly
+	"1988-3269" : "l", // 'Ílu
+	"1135-4712" : "l", // 'Ílu
+	"1988-4265" : "l", // Hispania Sacra
+	"0018-215X" : "l", // Hispania Sacra
 	
 
 	
@@ -2435,9 +2450,8 @@ var issnSsgMapping = {
 	"0002-7189, 1477-4585" : "0", // Journal of the American Academy of Religion
 	"0002-7189" : "0", // Journal of the American Academy of Religion
 	"1477-4585" : "0", // Journal of the American Academy of Religion
-	"1138-4972" : "0", // 'Ílu
+	"1988-3269" : "0", // 'Ílu
 	"1135-4712" : "0", // 'Ílu
-	"1139-1529" : "0", // 'Ílu
 	"0048-721X" : "0", // Religion
 	"18630502" : "1", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "1", //Theo-Web Zeitschrift für Religionspädagogik
